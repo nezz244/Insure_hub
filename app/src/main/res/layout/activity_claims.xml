@@ -10,103 +10,166 @@
         android:id="@+id/imageView11"
         android:layout_width="100dp"
         android:layout_height="58dp"
-        app:srcCompat="@drawable/dollar2"
-        tools:layout_editor_absoluteX="205dp"
-        tools:layout_editor_absoluteY="679dp" />
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="54dp"
+        android:layout_marginEnd="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageView12"
+        app:layout_constraintStart_toEndOf="@+id/imageView15"
+        app:layout_constraintTop_toBottomOf="@+id/textView7"
+        app:srcCompat="@drawable/dollar2" />
 
     <ImageView
         android:id="@+id/imageView12"
         android:layout_width="51dp"
         android:layout_height="49dp"
-        app:srcCompat="@drawable/user"
-        tools:layout_editor_absoluteX="320dp"
-        tools:layout_editor_absoluteY="679dp" />
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="59dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="3dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView11"
+        app:layout_constraintTop_toBottomOf="@+id/textView7"
+        app:srcCompat="@drawable/user" />
 
     <ImageView
         android:id="@+id/imageView14"
         android:layout_width="68dp"
         android:layout_height="48dp"
-        app:srcCompat="@drawable/home_icon"
-        tools:layout_editor_absoluteX="29dp"
-        tools:layout_editor_absoluteY="680dp" />
+        android:layout_marginStart="29dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="3dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageView15"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        app:srcCompat="@drawable/home_icon" />
 
     <ImageView
         android:id="@+id/imageView15"
         android:layout_width="74dp"
         android:layout_height="53dp"
-        app:srcCompat="@drawable/options"
-        tools:layout_editor_absoluteX="117dp"
-        tools:layout_editor_absoluteY="679dp" />
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="58dp"
+        android:layout_marginEnd="14dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/imageView11"
+        app:layout_constraintStart_toEndOf="@+id/imageView14"
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        app:srcCompat="@drawable/options" />
 
     <ImageButton
         android:id="@+id/imageButton10"
         android:layout_width="160dp"
         android:layout_height="205dp"
-        app:srcCompat="@drawable/my_claims"
-        tools:layout_editor_absoluteX="6dp"
-        tools:layout_editor_absoluteY="120dp" />
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="57dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView4"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton12"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:srcCompat="@drawable/my_claims" />
 
     <ImageButton
         android:id="@+id/imageButton11"
         android:layout_width="160dp"
         android:layout_height="205dp"
-        app:srcCompat="@drawable/submit_documentation"
-        tools:layout_editor_absoluteX="223dp"
-        tools:layout_editor_absoluteY="396dp" />
+        android:layout_marginStart="57dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="28dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageButton9"
+        app:layout_constraintTop_toBottomOf="@+id/textView5"
+        app:srcCompat="@drawable/submit_documentation" />
 
     <ImageButton
         android:id="@+id/imageButton12"
         android:layout_width="160dp"
         android:layout_height="205dp"
-        app:srcCompat="@drawable/lodge_claims"
-        tools:layout_editor_absoluteX="223dp"
-        tools:layout_editor_absoluteY="120dp" />
+        android:layout_marginStart="10dp"
+        android:layout_marginTop="28dp"
+        android:layout_marginEnd="29dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView5"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageButton10"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3"
+        app:srcCompat="@drawable/lodge_claims" />
 
     <ImageView
         android:id="@+id/imageView3"
         android:layout_width="289dp"
         android:layout_height="104dp"
-        app:srcCompat="@mipmap/insure_hub_foreground"
-        tools:layout_editor_absoluteX="61dp"
-        tools:layout_editor_absoluteY="2dp" />
+        android:layout_marginStart="61dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="61dp"
+        android:layout_marginBottom="14dp"
+        app:layout_constraintBottom_toTopOf="@+id/imageButton10"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/insure_hub_foreground" />
 
     <ImageButton
         android:id="@+id/imageButton9"
         android:layout_width="160dp"
         android:layout_height="205dp"
-        app:srcCompat="@drawable/damage_assess"
-        tools:layout_editor_absoluteX="6dp"
-        tools:layout_editor_absoluteY="396dp" />
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginEnd="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/textView6"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton11"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:srcCompat="@drawable/damage_assess" />
 
     <TextView
         android:id="@+id/textView4"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="56dp"
+        android:layout_marginEnd="133dp"
         android:text="MY CLAIMS"
-        tools:layout_editor_absoluteX="56dp"
-        tools:layout_editor_absoluteY="325dp" />
+        app:layout_constraintBottom_toTopOf="@+id/imageButton9"
+        app:layout_constraintEnd_toStartOf="@+id/textView5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton10" />
 
     <TextView
         android:id="@+id/textView5"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="80dp"
         android:text="LODGE CLAIMS"
-        tools:layout_editor_absoluteX="263dp"
-        tools:layout_editor_absoluteY="325dp" />
+        app:layout_constraintBottom_toTopOf="@+id/imageButton11"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView4"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton12" />
 
     <TextView
         android:id="@+id/textView6"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="6dp"
+        android:layout_marginEnd="70dp"
         android:text="DAMAGE ASSESSMENT"
-        tools:layout_editor_absoluteX="6dp"
-        tools:layout_editor_absoluteY="601dp" />
+        app:layout_constraintEnd_toStartOf="@+id/textView7"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton9" />
 
     <TextView
         android:id="@+id/textView7"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="16dp"
         android:text="SUBMIT DOCUMENTATION"
-        tools:layout_editor_absoluteX="226dp"
-        tools:layout_editor_absoluteY="601dp" />
+        app:layout_constraintBottom_toTopOf="@+id/imageView11"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView6"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton11" />
 </androidx.constraintlayout.widget.ConstraintLayout>
