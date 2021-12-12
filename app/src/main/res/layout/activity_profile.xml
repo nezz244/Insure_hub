@@ -7,7 +7,7 @@
     tools:context=".Profile">
 
     <ImageView
-        android:id="@+id/imageView18"
+        android:id="@+id/Profile_to_home"
         android:layout_width="68dp"
         android:layout_height="48dp"
         android:layout_marginStart="171dp"
@@ -18,11 +18,69 @@
         app:layout_constraintStart_toStartOf="parent"
         app:srcCompat="@drawable/home_icon" />
 
-    <TextView
-        android:id="@+id/textView8"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Profile"
-        tools:layout_editor_absoluteX="168dp"
-        tools:layout_editor_absoluteY="28dp" />
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="198dp"
+        android:layout_height="179dp"
+        android:layout_marginStart="136dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="147dp"
+        android:visibility="visible"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:srcCompat="@drawable/add_user_icon__blue__svg" />
+
+    <ScrollView
+        android:layout_width="409dp"
+        android:layout_height="543dp"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="1dp"
+        android:layout_marginEnd="1dp"
+        android:layout_marginBottom="1dp"
+        tools:fillViewport="true"
+        app:layout_constraintBottom_toTopOf="@+id/Profile_to_home"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView18">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <EditText
+                android:id="@+id/editTextTextPersonName39"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Name"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName40"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Surname"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName41"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Phone Number"
+                android:inputType="textPersonName" />
+
+            <EditText
+                android:id="@+id/editTextTextPersonName42"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="Email Address"
+                android:inputType="textPersonName" />
+        </LinearLayout>
+    </ScrollView>
+
 </androidx.constraintlayout.widget.ConstraintLayout>

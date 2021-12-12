@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".New_Business">
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="289dp"
+        android:layout_height="104dp"
+        android:layout_marginStart="61dp"
+        android:layout_marginTop="2dp"
+        android:layout_marginEnd="61dp"
+        android:layout_marginBottom="173dp"
+        app:layout_constraintBottom_toTopOf="@+id/horizontalScrollView4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@mipmap/insure_hub_foreground" />
+
+    <ScrollView
+        android:id="@+id/newbussinessscrollview"
+        android:layout_width="409dp"
+        android:layout_height="642dp"
+        android:fillViewport="true"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="88dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <Button
+                android:id="@+id/BusinessInsuranceApplication"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="BusinessInsuranceApplication" />
+
+            <Button
+                android:id="@+id/PersonalInsuranceApplication"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PersonalInsuranceApplication" />
+
+            <Button
+                android:id="@+id/FuneralPolicyApplication"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="FuneralPolicyApplication" />
+
+            <Button
+                android:id="@+id/HouseholdInsuranceApplication"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="HouseholdInsuranceApplication" />
+
+            <Button
+                android:id="@+id/CommissionAgent"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Commission Agent" />
+
+            <Button
+                android:id="@+id/LifeInsuranceApplication"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="LifeInsuranceApplication" />
+
+            <Button
+                android:id="@+id/FarmersInsurance"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="FarmersInsurance" />
+
+            <Button
+                android:id="@+id/UnderwriterTasks"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Underwriter Tasks" />
+
+            <Button
+                android:id="@+id/MedicalInsuranceApplication"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="MedicalInsuranceApplication" />
+        </LinearLayout>
+    </ScrollView>
+</androidx.constraintlayout.widget.ConstraintLayout>

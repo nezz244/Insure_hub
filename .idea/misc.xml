@@ -3,11 +3,26 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/activity_claims.xml" value="0.1793478260869565" />
-        <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/activity_home.xml" value="0.2" />
-        <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/activity_lodge_claim.xml" value="0.1793478260869565" />
+        <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/Home/Claims/Lodge Claim/activity_commission_agent.xml" value="0.1" />
+        <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/Home/Claims/Lodge Claim/activity_funeral_insurance_claim.xml" value="0.1" />
+        <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/Home/Claims/Lodge Claim/activity_medical_insurance_claim.xml" value="0.1" />
+        <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/activity_application_manager.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/activity_claims.xml" value="0.264" />
+        <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/activity_damage_assesment.xml" value="0.24375" />
+        <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/activity_funeral_insurance.xml" value="0.1" />
+        <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/activity_funeral_insurance_claim.xml" value="0.13489583333333333" />
+        <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/activity_home.xml" value="0.264" />
+        <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/activity_home_home.xml" value="0.24375" />
+        <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/activity_home_insurance.xml" value="0.22916666666666666" />
+        <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/activity_life_insurance_application.xml" value="0.13489583333333333" />
+        <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/activity_lifeinsurance.xml" value="0.13489583333333333" />
+        <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/activity_lodge_claim.xml" value="0.264" />
         <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/activity_main.xml" value="0.16893115942028986" />
-        <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/activity_profile.xml" value="0.259375" />
+        <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/activity_my_claims.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/activity_new_business.xml" value="0.264" />
+        <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/activity_profile.xml" value="0.152" />
+        <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/activity_submit_documentation.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/activity_underwriter_tasks.xml" value="0.1" />
       </map>
     </option>
   </component>
