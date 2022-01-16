@@ -10,10 +10,10 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.INSURE_HUB">
         <activity
-            android:name=".VehicleInsurance"
+            android:name=".TabsHomeinsurance"
             android:exported="true" />
         <activity
-            android:name=".HomeInsurance"
+            android:name=".VehicleInsurance"
             android:exported="true" />
         <activity
             android:name=".FuneralInsurance"
@@ -29,12 +29,6 @@
             android:exported="true" />
         <activity
             android:name=".UnderwriterTasks"
-            android:exported="true" />
-        <activity
-            android:name=".LifeInsuranceApplication"
-            android:exported="true" />
-        <activity
-            android:name=".HouseholdInsuranceApplication"
             android:exported="true" />
         <activity
             android:name=".FuneralInsuranceClaim"

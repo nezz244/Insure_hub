@@ -36,7 +36,7 @@ public class lodge_claim extends AppCompatActivity {
         mvehicleinsurance.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent= new Intent(lodge_claim.this, tabs.class);
+                Intent intent= new Intent(lodge_claim.this, TabsHomeinsurance.class);
                 startActivity(intent);
                 finish();
                 return;
@@ -47,10 +47,9 @@ public class lodge_claim extends AppCompatActivity {
         mfuneralinsurance.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent= new Intent(lodge_claim.this, tabs.class);
+                Intent intent= new Intent(lodge_claim.this, TabsHomeinsurance.class);
                 startActivity(intent);
                 finish();
-                return;
 
             }
         });
@@ -58,20 +57,19 @@ public class lodge_claim extends AppCompatActivity {
         mlifeinsurance.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent= new Intent(lodge_claim.this, tabs.class);
-                startActivity(intent);
+                Intent intent= new Intent(lodge_claim.this, TabsHomeinsurance.class);
+                 startActivity(intent);
                 finish();
-                return;
+
             }
         });
 
         mhouseholdinsurance.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent= new Intent(lodge_claim.this, tabs.class);
+                Intent intent= new Intent(lodge_claim.this, TabsHomeinsurance.class);
                 startActivity(intent);
                 finish();
-                return;
 
             }
         });
@@ -79,10 +77,9 @@ public class lodge_claim extends AppCompatActivity {
         mmedicalinsurance.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent= new Intent(lodge_claim.this, tabs.class);
+                Intent intent= new Intent(lodge_claim.this, TabsHomeinsurance.class);
                 startActivity(intent);
                 finish();
-                return;
 
             }
         });
@@ -90,20 +87,19 @@ public class lodge_claim extends AppCompatActivity {
         mHome.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent= new Intent(lodge_claim.this, tabs.class);
+                Intent intent= new Intent(lodge_claim.this,  TabsHomeinsurance.class);
                 startActivity(intent);
                 finish();
-                return;
             }
         });
 
         mprofile.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent= new Intent(lodge_claim.this, tabs.class);
+                Intent intent= new Intent(lodge_claim.this,TabsHomeinsurance.class);
                 startActivity(intent);
                 finish();
-                return;
+
             }
         });
     }

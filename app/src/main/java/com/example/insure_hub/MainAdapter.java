@@ -9,16 +9,13 @@ import android.widget.BaseExpandableListAdapter;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import org.w3c.dom.Text;
-
-import java.sql.Array;
 import java.util.ArrayList;
 import java.util.HashMap;
 
 public class MainAdapter extends BaseExpandableListAdapter {
     ArrayList<String> listGroup;
     HashMap<String, ArrayList<String>> listChild;
-    public  MainAdapter(ArrayList<String> listGroup, HashMap<String, ArrayList<String>> listChild){
+    public MainAdapter(ArrayList<String> listGroup, HashMap<String, ArrayList<String>> listChild){
         this.listGroup= listGroup;
         this.listChild= listChild;
 

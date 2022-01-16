@@ -24,7 +24,7 @@ public class MainActivity extends AppCompatActivity {
         mlogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent= new Intent(MainActivity.this,Expandableview.class);
+                Intent intent= new Intent(MainActivity.this, Home.class);
                 startActivity(intent);
                 finish();
                 return;
