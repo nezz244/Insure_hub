@@ -1,0 +1,281 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <!--Base CardView-->
+    <androidx.cardview.widget.CardView
+        android:id="@+id/base_cardview4"
+        style="@style/Base.CardView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="9dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/base_cardview2">
+
+        <!--This is a ConstraintLayout for the entire CardView
+                            including the expandable portion-->
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:layout_constraintBottom_toBottomOf="@+id/base_cardview"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.511"
+            tools:layout_editor_absoluteX="-55dp">
+
+            <!--This is a ConstraintLayout for the fixed portion
+                            of the CardView. The elements
+                            that lie within the fixed portion of the CardView
+                            can be constrained to this layout.-->
+
+            <!--The following is the expandable portion whose
+                            visibility is initially set to 'gone'.
+                            The parent LinearLayout contains 3 child LinearLayouts
+                            that hold a subject name and an icon each.-->
+            <LinearLayout
+                android:id="@+id/hidden_view4"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+
+                android:visibility="gone"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent">
+
+                <!--Child LinearLayout 1-->
+                <LinearLayout
+                    android:id="@+id/layot859"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
+                    <androidx.constraintlayout.widget.ConstraintLayout
+                        android:id="@+id/cons9tralaout2"
+                        android:layout_width="match_parent"
+                        android:layout_height="400dp">
+
+                        <ImageView
+                            android:id="@+id/im5aeV3iw121"
+                            android:layout_width="45dp"
+                            android:layout_height="59dp"
+
+                            android:layout_marginStart="41dp"
+
+                            android:layout_marginTop="56dp"
+
+                            android:layout_marginEnd="16dp"
+
+
+                            app:layout_constraintBottom_toTopOf="@+id/t81eView32"
+
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@+id/ima7geiew151"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:srcCompat="@drawable/tick1"
+                            tools:ignore="MissingConstraints" />
+
+                        <ImageView
+                            android:id="@+id/mi6ageView13"
+                            android:layout_width="45dp"
+                            android:layout_height="59dp"
+
+                            android:layout_marginStart="16dp"
+
+
+                            android:layout_marginTop="56dp"
+
+                            app:layout_constraintBottom_toTopOf="@+id/t9eVie162"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:srcCompat="@drawable/tick1"
+                            tools:ignore="MissingConstraints" />
+
+                        <ImageView
+                            android:id="@+id/ima39eVie141"
+                            android:layout_width="45dp"
+                            android:layout_height="59dp"
+
+                            android:layout_marginStart="38dp"
+
+                            android:layout_marginTop="56dp"
+                            app:layout_constraintBottom_toTopOf="@+id/tex8tV52"
+                            app:layout_constraintStart_toEndOf="@+id/imag5i1ew16"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:srcCompat="@drawable/tick1"
+                            tools:ignore="MissingConstraints" />
+
+                        <ImageView
+                            android:id="@+id/ima7geiew151"
+                            android:layout_width="45dp"
+                            android:layout_height="59dp"
+
+                            android:layout_marginStart="36dp"
+
+                            android:layout_marginTop="56dp"
+                            app:layout_constraintBottom_toTopOf="@+id/tf5extVe2"
+                            app:layout_constraintStart_toEndOf="@+id/ima39eVie141"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:srcCompat="@drawable/tick1"
+                            tools:ignore="MissingConstraints" />
+
+                        <ImageView
+                            android:id="@+id/imag5i1ew16"
+                            android:layout_width="45dp"
+                            android:layout_height="59dp"
+
+                            android:layout_marginStart="100dp"
+                            android:layout_marginTop="56dp"
+
+
+                            app:layout_constraintBottom_toTopOf="@+id/textV8e42"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toTopOf="parent"
+                            app:srcCompat="@drawable/tick1"
+                            tools:ignore="MissingConstraints" />
+
+                        <TextView
+                            android:id="@+id/t81eView32"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:layout_marginStart="51dp"
+
+                            android:layout_marginEnd="16dp"
+
+                            android:text="SERVICE "
+
+                            android:textSize="10dp"
+
+                            app:layout_constraintEnd_toEndOf="parent"
+                            app:layout_constraintStart_toEndOf="@+id/tf5extVe2"
+                            app:layout_constraintTop_toBottomOf="@+id/im5aeV3iw121"
+                            tools:ignore="MissingConstraints" />
+
+                        <TextView
+                            android:id="@+id/textV8e42"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:layout_marginStart="18dp"
+
+                            android:layout_marginBottom="271dp"
+
+                            android:text="COMMISSIONS"
+                            android:textSize="10dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintStart_toEndOf="@+id/t9eVie162"
+                            app:layout_constraintTop_toBottomOf="@+id/imag5i1ew16"
+                            tools:ignore="MissingConstraints" />
+
+                        <TextView
+                            android:id="@+id/tf5extVe2"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:layout_marginStart="38dp"
+
+                            android:layout_marginBottom="271dp"
+
+                            android:text="SERVICE"
+                            android:textSize="10dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintStart_toEndOf="@+id/tex8tV52"
+                            app:layout_constraintTop_toBottomOf="@+id/ima7geiew151"
+                            tools:ignore="MissingConstraints" />
+
+                        <TextView
+                            android:id="@+id/tex8tV52"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+
+                            android:layout_marginStart="16dp"
+
+                            android:layout_marginBottom="271dp"
+
+                            android:text="BROKERS"
+                            android:textSize="10dp"
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintStart_toEndOf="@+id/textV8e42"
+                            app:layout_constraintTop_toBottomOf="@+id/ima39eVie141"
+                            tools:ignore="MissingConstraints" />
+
+                        <TextView
+                            android:id="@+id/t9eVie162"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginStart="16dp"
+
+
+                            android:layout_marginBottom="271dp"
+                            android:text="REINSURANCE"
+
+                            android:textSize="10dp"
+
+
+                            app:layout_constraintBottom_toBottomOf="parent"
+                            app:layout_constraintStart_toStartOf="parent"
+                            app:layout_constraintTop_toBottomOf="@+id/mi6ageView13"
+                            tools:ignore="MissingConstraints" />
+                    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.cardview.widget.CardView>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="407dp"
+        android:layout_height="99dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="631dp"
+        android:layout_marginEnd="3dp"
+        android:layout_marginBottom="1dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/fixed_layout5"
+            android:layout_width="387dp"
+            android:layout_height="59dp"
+            android:layout_marginTop="2dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="38dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+
+            <!--This is ImageButton for the expansion icon.-->
+            <ImageButton
+                android:id="@+id/arrow_button4"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+
+                android:layout_marginTop="1dp"
+
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="16dp"
+                android:src="@drawable/tick1"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

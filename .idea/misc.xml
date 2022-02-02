@@ -8,33 +8,71 @@
         <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/Home/Claims/Lodge Claim/activity_funeral_insurance_claim.xml" value="0.1" />
         <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/Home/Claims/Lodge Claim/activity_medical_insurance_claim.xml" value="0.1" />
         <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/activity_application_manager.xml" value="0.13020833333333334" />
+        <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/activity_brockerform.xml" value="0.2427536231884058" />
+        <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/activity_bussinessform.xml" value="0.2427536231884058" />
         <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/activity_claims.xml" value="0.264" />
+        <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/activity_collectform.xml" value="0.2368659420289855" />
         <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/activity_damage_assesment.xml" value="0.24375" />
         <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/activity_expandable_recycler.xml" value="0.4" />
         <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/activity_expandableview.xml" value="0.264" />
         <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/activity_funeral_insurance.xml" value="0.1" />
         <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/activity_funeral_insurance_claim.xml" value="0.13489583333333333" />
-        <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/activity_home.xml" value="0.1" />
+        <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/activity_home.xml" value="0.264" />
         <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/activity_home_home.xml" value="0.24375" />
         <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/activity_home_insurance.xml" value="0.22916666666666666" />
+        <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/activity_homeinsurancetab1.xml" value="0.24547101449275363" />
         <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/activity_life_insurance_application.xml" value="0.13489583333333333" />
         <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/activity_lifeinsurance.xml" value="0.13489583333333333" />
+        <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/activity_lifeinsurancetab11.xml" value="0.2328125" />
         <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/activity_lodge_claim.xml" value="0.21437908496732025" />
         <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/activity_main.xml" value="0.16893115942028986" />
         <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/activity_main2.xml" value="0.152" />
         <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/activity_main3.xml" value="0.103125" />
+        <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/activity_makeform.xml" value="0.2368659420289855" />
         <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/activity_medical_insurance.xml" value="0.1171875" />
         <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/activity_my_claims.xml" value="0.13020833333333334" />
         <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/activity_new_business.xml" value="0.264" />
+        <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/activity_personalform.xml" value="0.2427536231884058" />
+        <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/activity_premiums.xml" value="0.23958333333333334" />
+        <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/activity_presonalform.xml" value="0.2427536231884058" />
+        <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/activity_products.xml" value="0.24682971014492755" />
         <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/activity_profile.xml" value="0.152" />
+        <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/activity_quotation.xml" value="0.23958333333333334" />
+        <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/activity_quotations.xml" value="0.24682971014492755" />
+        <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/activity_receiveform.xml" value="0.2368659420289855" />
+        <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/activity_registration.xml" value="0.2453125" />
+        <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/activity_samplesketch.xml" value="0.176" />
+        <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/activity_serviceproviderform.xml" value="0.2427536231884058" />
         <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/activity_submit_documentation.xml" value="0.13020833333333334" />
         <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/activity_tabbedapp.xml" value="0.264" />
+        <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/activity_tabbusinessform.xml" value="0.1953125" />
         <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/activity_tabs.xml" value="7.2" />
         <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/activity_tabs1.xml" value="0.176" />
+        <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/activity_tabs_brockerform.xml" value="0.2427536231884058" />
+        <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/activity_tabs_businessform.xml" value="0.2427536231884058" />
+        <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/activity_tabs_farmersinsurance.xml" value="0.1933876811594203" />
         <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/activity_tabs_homeinsurance.xml" value="0.1" />
+        <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/activity_tabs_lifeeinsurance.xml" value="0.11302083333333333" />
+        <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/activity_tabs_lifeinsurance.xml" value="0.24270833333333333" />
+        <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/activity_tabs_medicalinsurance.xml" value="0.1933876811594203" />
+        <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/activity_tabs_personalform.xml" value="0.2427536231884058" />
+        <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/activity_tabs_serviceproviderform.xml" value="0.2427536231884058" />
+        <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/activity_tabsbrockerform.xml" value="0.1859375" />
+        <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/activity_tabscarinsurance.xml" value="0.1933876811594203" />
+        <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/activity_tabsfuneralinsurance.xml" value="0.1933876811594203" />
+        <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/activity_tabspersonalform.xml" value="0.1859375" />
+        <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/activity_tabsserviceproviderform.xml" value="0.2" />
         <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/activity_underwriter_tasks.xml" value="0.1" />
         <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/algorithmfragment.xml" value="0.14166666666666666" />
+        <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/carinsurancetab1.xml" value="0.1933876811594203" />
+        <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/carinsurancetab2.xml" value="0.1933876811594203" />
+        <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/carinsurancetab3.xml" value="0.2477355072463768" />
+        <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/carinsurancetab4.xml" value="0.2477355072463768" />
         <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/coursefragment.xml" value="0.14166666666666666" />
+        <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/farmersinsurancetab3.xml" value="0.2477355072463768" />
+        <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/farmersinsurancetab4.xml" value="0.2477355072463768" />
+        <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/farmersinusrancetab2.xml" value="0.1933876811594203" />
+        <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/farmerslinusrancetab1.xml" value="0.1933876811594203" />
         <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/fragment1_layout.xml" value="0.264" />
         <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/fragment2_layout.xml" value="0.264" />
         <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/fragment3_fragment3.xml" value="0.1793478260869565" />
@@ -49,9 +87,31 @@
         <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/fragment_second_fragment.xml" value="0.13489583333333333" />
         <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/fragment_tabbedapp.xml" value="0.1" />
         <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/fragment_thirdfragment.xml" value="0.13489583333333333" />
-        <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/layout_login.xml" value="0.259375" />
+        <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/funeralinsurancetab3.xml" value="0.2477355072463768" />
+        <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/funeralinsurancetab4.xml" value="0.2477355072463768" />
+        <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/funeralinusrancetab1.xml" value="0.1933876811594203" />
+        <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/funeralinusrancetab2.xml" value="0.1933876811594203" />
+        <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/homeinsurancetab1.xml" value="0.264" />
+        <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/homeinsurancetab2.xml" value="0.1" />
+        <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/homeinsurancetab3.xml" value="0.1933876811594203" />
+        <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/homeinsurancetab4.xml" value="0.1933876811594203" />
+        <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/homeinsurancetab5.xml" value="0.1933876811594203" />
+        <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/homeinsurancetab6.xml" value="0.1933876811594203" />
+        <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/homeinsurancetab7.xml" value="0.1933876811594203" />
+        <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/layout_login.xml" value="0.264" />
+        <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/layout_loginn.xml" value="0.24375" />
         <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/layout_signup.xml" value="0.259375" />
+        <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/lifeinsurancetab1.xml" value="0.24270833333333333" />
+        <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/lifeinsurancetab2.xml" value="0.24270833333333333" />
+        <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/lifeinsurancetab3.xml" value="0.2477355072463768" />
+        <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/lifeinsurancetab4.xml" value="0.2477355072463768" />
+        <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/medicalinsurancetab3.xml" value="0.2477355072463768" />
+        <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/medicalinsurancetab4.xml" value="0.2477355072463768" />
+        <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/medicalinusrancetab1.xml" value="0.1933876811594203" />
+        <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/medicalinusrancetab2.xml" value="0.1933876811594203" />
+        <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/recoverform.xml" value="0.2368659420289855" />
         <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/row.xml" value="0.2" />
+        <entry key="..\:/Users/ndebe/AndroidStudioProjects/INSURE_HUB2/app/src/main/res/layout/samplesketches.xml" value="0.25" />
       </map>
     </option>
   </component>

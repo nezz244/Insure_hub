@@ -10,6 +10,65 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.INSURE_HUB">
         <activity
+            android:name=".tabsrecover"
+            android:exported="true" />
+        <activity
+            android:name=".tabsmake"
+            android:exported="true" />
+        <activity
+            android:name=".tabscollect"
+            android:exported="true" />
+        <activity
+            android:name=".tabsreceive"
+            android:exported="true"
+            android:label="@string/title_activity_tabsreceive"
+            android:theme="@style/Theme.INSURE_HUB.NoActionBar" />
+        <activity
+            android:name=".Tabspersonalform"
+            android:exported="true" />
+        <activity
+            android:name=".Tabsbrockerform"
+            android:exported="true" />
+        <activity
+            android:name=".Tabsserviceproviderform"
+            android:exported="true" />
+        <activity
+            android:name=".Tabbusinessform"
+            android:exported="true" />
+        <activity
+            android:name=".Quotation"
+            android:exported="true" />
+        <activity
+            android:name=".samplesketch"
+            android:exported="true" />
+        <activity
+            android:name=".Products"
+            android:exported="true" />
+        <activity
+            android:name=".Registration"
+            android:exported="true" />
+        <activity
+            android:name=".Premiums"
+            android:exported="true" />
+        <activity
+            android:name=".Lifeinsurancetab11"
+            android:exported="true" />
+        <activity
+            android:name=".TabsFarmersinsurance"
+            android:exported="true" />
+        <activity
+            android:name=".TabsMedicalinsurance"
+            android:exported="true" />
+        <activity
+            android:name=".Tabsfuneralinsurance"
+            android:exported="true" />
+        <activity
+            android:name=".Tabscarinsurance"
+            android:exported="true" />
+        <activity
+            android:name=".TabsLifeeinsurance"
+            android:exported="true" />
+        <activity
             android:name=".TabsHomeinsurance"
             android:exported="true" />
         <activity

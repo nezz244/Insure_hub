@@ -9,10 +9,10 @@ import androidx.fragment.app.FragmentPagerAdapter
 import androidx.viewpager.widget.ViewPager
 import com.google.android.material.tabs.TabLayout
 
-class TabsHomeinsurance : AppCompatActivity() {
+class Tabscarinsurance : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_tabs_homeinsurance)
+        setContentView(R.layout.activity_tabscarinsurance)
 
 
         // Create the object of Toolbar, ViewPager and
@@ -40,12 +40,10 @@ class TabsHomeinsurance : AppCompatActivity() {
 
         // LoginFragment is the name of Fragment and the Login
         // is a title of tab
-        adapter.addFragment(Homeinsurancetab1(), "Principal Member Details")
-        adapter.addFragment(Homeinsurancetab2(), "Property Details")
-        adapter.addFragment(Homeinsurancetab3(), "Damage Details")
-        adapter.addFragment(Homeinsurancetab4(), "Document Upload")
-
-
+        adapter.addFragment(carinsurancetab1(), "Insured Details")
+        adapter.addFragment(carinsurancetab2(), "Drivers Details")
+        adapter.addFragment(carinsurancetab3(), "Vehicle Details")
+        adapter.addFragment(carinsurancetab4(), "Document Upload")
 
         // setting adapter to view pager.
         viewpager.setAdapter(adapter)
@@ -87,6 +85,6 @@ class TabsHomeinsurance : AppCompatActivity() {
             fragmentTitleList1.add(title)
         }
     }
-    }
+}
 
 

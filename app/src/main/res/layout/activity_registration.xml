@@ -1,0 +1,286 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3F51B5"
+    tools:context=".Registration">
+
+
+    <LinearLayout
+        android:layout_width="420dp"
+        android:layout_height="770dp"
+        android:layout_marginStart="5dp"
+        android:layout_marginTop="9dp"
+        android:layout_marginEnd="6dp"
+        android:layout_marginBottom="9dp"
+        android:background="#FDFCFC"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+
+        <ImageView
+            android:id="@+id/imageViw2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="120dp"
+            android:layout_marginTop="3dp"
+
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/appname" />
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            app:cardBackgroundColor="#FFFFFF"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            app:cardMaxElevation="10dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true">
+
+            <!--
+                In the above cardview widget
+                cardelevation property will give elevation to your card view
+                card corner radius will provide radius to your card view
+                card background color will give background color to your card view
+                card max elevation will give the cardview maximum elevation
+                card prevent corner overlap will add padding to CardView on v20 and
+                before to prevent intersections between the Card content and rounded corners.
+                card use compact padding will add padding in API v21+ as well to have the same
+                measurements with previous versions.
+            -->
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <!--ImageVIew to display our Course Image-->
+                <ImageView
+                    android:id="@+id/idIVCoursemage"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:contentDescription="@string/app_name"
+                    android:padding="5dp"
+                    android:src="@drawable/istockphoto_1180078592_612x612" />
+
+                <TextView
+                    android:id="@+id/textVew6"
+                    android:layout_width="249dp"
+                    android:layout_height="53dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="6dp"
+                    android:layout_marginTop="31dp"
+                    android:layout_toEndOf="@+id/idIVCoursemage"
+                    android:text="Register Business"
+
+                    android:textSize="20dp" />
+
+                <!--Text View to display Course Name-->
+
+                <!--Text VIew to display COurse Rating-->
+                <!--Image used in present in drawable folder-->
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            app:cardBackgroundColor="#FFFFFF"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            app:cardMaxElevation="10dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true">
+
+            <!--
+                In the above cardview widget
+                cardelevation property will give elevation to your card view
+                card corner radius will provide radius to your card view
+                card background color will give background color to your card view
+                card max elevation will give the cardview maximum elevation
+                card prevent corner overlap will add padding to CardView on v20 and
+                before to prevent intersections between the Card content and rounded corners.
+                card use compact padding will add padding in API v21+ as well to have the same
+                measurements with previous versions.
+            -->
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <!--ImageVIew to display our Course Image-->
+                <ImageView
+                    android:id="@+id/idIVCoureImage"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:contentDescription="@string/app_name"
+                    android:padding="5dp"
+                    android:src="@drawable/istockphoto_1180078592_612x612" />
+
+                <TextView
+                    android:id="@+id/textViw6"
+                    android:layout_width="249dp"
+                    android:layout_height="53dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="6dp"
+                    android:layout_marginTop="31dp"
+                    android:layout_toEndOf="@+id/idIVCoureImage"
+                    android:text="Register Service Provider"
+                    android:textSize="20dp" />
+
+                <!--Text View to display Course Name-->
+
+                <!--Text VIew to display COurse Rating-->
+                <!--Image used in present in drawable folder-->
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            app:cardBackgroundColor="#FFFFFF"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            app:cardMaxElevation="10dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true">
+
+            <!--
+                In the above cardview widget
+                cardelevation property will give elevation to your card view
+                card corner radius will provide radius to your card view
+                card background color will give background color to your card view
+                card max elevation will give the cardview maximum elevation
+                card prevent corner overlap will add padding to CardView on v20 and
+                before to prevent intersections between the Card content and rounded corners.
+                card use compact padding will add padding in API v21+ as well to have the same
+                measurements with previous versions.
+            -->
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <!--ImageVIew to display our Course Image-->
+                <ImageView
+                    android:id="@+id/idIVCorseImage"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:contentDescription="@string/app_name"
+                    android:padding="5dp"
+                    android:src="@drawable/istockphoto_1180078592_612x612" />
+
+                <TextView
+                    android:id="@+id/textiew6"
+                    android:layout_width="249dp"
+                    android:layout_height="53dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="6dp"
+                    android:layout_marginTop="31dp"
+                    android:layout_toEndOf="@+id/idIVCorseImage"
+                    android:text="Register Broker"
+                    android:textSize="20dp" />
+
+                <!--Text View to display Course Name-->
+
+                <!--Text VIew to display COurse Rating-->
+                <!--Image used in present in drawable folder-->
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            app:cardBackgroundColor="#FFFFFF"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            app:cardMaxElevation="10dp"
+            app:cardPreventCornerOverlap="true"
+            app:cardUseCompatPadding="true">
+
+            <!--
+                In the above cardview widget
+                cardelevation property will give elevation to your card view
+                card corner radius will provide radius to your card view
+                card background color will give background color to your card view
+                card max elevation will give the cardview maximum elevation
+                card prevent corner overlap will add padding to CardView on v20 and
+                before to prevent intersections between the Card content and rounded corners.
+                card use compact padding will add padding in API v21+ as well to have the same
+                measurements with previous versions.
+            -->
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <!--ImageVIew to display our Course Image-->
+                <ImageView
+                    android:id="@+id/idIVCurseImage"
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:contentDescription="@string/app_name"
+                    android:padding="5dp"
+                    android:src="@drawable/istockphoto_1180078592_612x612" />
+
+                <TextView
+                    android:id="@+id/textView"
+                    android:layout_width="249dp"
+                    android:layout_height="53dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_marginStart="6dp"
+                    android:layout_marginTop="31dp"
+                    android:layout_toEndOf="@+id/idIVCurseImage"
+                    android:text="register Personal"
+                    android:textSize="20dp" />
+
+                <!--Text View to display Course Name-->
+
+                <!--Text VIew to display COurse Rating-->
+                <!--Image used in present in drawable folder-->
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+
+
+        <ImageView
+            android:id="@+id/imageView2"
+            android:layout_width="93dp"
+            android:layout_height="61dp"
+            app:srcCompat="@drawable/ic_baseline_arrow_back_24" />
+
+
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

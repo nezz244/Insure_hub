@@ -31,4 +31,11 @@ public class MainActivity extends AppCompatActivity {
             }
         });
     }
+
+    public void submitbuttonHandler1(View view) {
+        Intent intent= new Intent(MainActivity.this, Home.class);
+        startActivity(intent);
+        finish();
+        return;
+    }
 }
