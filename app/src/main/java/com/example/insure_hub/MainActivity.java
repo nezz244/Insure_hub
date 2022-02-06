@@ -7,9 +7,10 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 
 public class MainActivity extends AppCompatActivity {
-    Button mlogin;
+    ImageView mlogin;
 
 
     @Override
@@ -18,10 +19,10 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         getWindow().setStatusBarColor(ContextCompat.getColor(MainActivity.this, R.color.white));
 
-        mlogin= findViewById(R.id.login);
+        mlogin= findViewById(R.id.Login);
 
 
-        mlogin.setOnClickListener(new View.OnClickListener() {
+       mlogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent= new Intent(MainActivity.this, Home.class);
@@ -30,6 +31,7 @@ public class MainActivity extends AppCompatActivity {
                 return;
             }
         });
+
     }
 
     public void submitbuttonHandler1(View view) {

@@ -26,7 +26,7 @@
             android:layout_height="48dp"
             android:padding="4dp"
 
-            app:srcCompat="@drawable/home_icon" />
+            app:srcCompat="@drawable/ic_round_format_align_justify_24" />
 
 
         <ImageView
@@ -35,7 +35,7 @@
             android:layout_height="match_parent"
             android:layout_marginHorizontal="107dp"
             android:padding="4dp"
-            app:srcCompat="@drawable/dollar2" />
+            app:srcCompat="@drawable/ic_baseline_home_24" />
 
         <ImageView
             android:id="@+id/imageView18"
@@ -45,7 +45,7 @@
             android:layout_marginStart="4dp"
             android:layout_marginEnd="26dp"
             android:padding="4dp"
-            app:srcCompat="@drawable/user" />
+            app:srcCompat="@drawable/ic_baseline_person_outline_24" />
 
     </LinearLayout>
 
@@ -72,18 +72,45 @@
             android:orientation="vertical"
             android:padding="0dp">
 
-            <ImageView
-                android:id="@+id/imageViw2"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_marginStart="120dp"
-                android:layout_marginTop="3dp"
 
 
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="parent"
-                app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@drawable/appname" />
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/imageViw2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="120dp"
+
+
+                    android:layout_marginBottom="24dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.0"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/appname" />
+
+                <ImageView
+                    android:id="@+id/imageView17"
+                    android:layout_width="68dp"
+                    android:layout_height="48dp"
+                    android:layout_marginStart="64dp"
+                    android:layout_marginEnd="5dp"
+                    android:layout_marginBottom="24dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toEndOf="@+id/imageViw2"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:srcCompat="@drawable/logout__1_" />
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
         </LinearLayout>
 
         <LinearLayout
@@ -98,7 +125,7 @@
                 android:layout_width="196dp"
                 android:layout_height="39dp"
                 android:layout_gravity="center"
-                android:text="OUR SERVICES"
+
                 android:textAlignment="center"
                 android:textColor="@color/black" />
 
@@ -162,11 +189,12 @@
                                 android:layout_marginStart="1dp"
                                 android:layout_marginEnd="253dp"
                                 android:layout_marginBottom="26dp"
-                                android:text="HOME"
+                                android:fontFamily="sans-serif-black"
 
-                                android:textColor="#006600"
+                                android:text="Home"
+                                android:textColor="#343734"
+
                                 android:textSize="25dp"
-
                                 android:textStyle="bold"
                                 app:layout_constraintBottom_toBottomOf="parent"
                                 app:layout_constraintEnd_toStartOf="@+id/arrow_button"
@@ -218,17 +246,16 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="400dp">
 
+
                                     <TextView
                                         android:id="@+id/textView"
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
-                                        android:layout_marginStart="10dp"
-                                        android:layout_marginEnd="33dp"
+                                        android:layout_marginStart="13dp"
                                         android:layout_marginBottom="26dp"
-                                        android:text="PREMIUMS"
+                                        android:text="REPORTING"
                                         android:textSize="10dp"
                                         app:layout_constraintBottom_toTopOf="@+id/imageView22"
-                                        app:layout_constraintEnd_toStartOf="@+id/textView2"
                                         app:layout_constraintStart_toStartOf="parent"
                                         app:layout_constraintTop_toBottomOf="@+id/imageView16"
                                         tools:ignore="MissingConstraints" />
@@ -237,14 +264,12 @@
                                         android:id="@+id/textView11"
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
-                                        android:layout_marginStart="10dp"
+                                        android:layout_marginStart="13dp"
                                         android:layout_marginTop="200dp"
-                                        android:layout_marginEnd="33dp"
                                         android:layout_marginBottom="64dp"
                                         android:text="CUSTOMER"
                                         android:textSize="10dp"
                                         app:layout_constraintBottom_toBottomOf="parent"
-                                        app:layout_constraintEnd_toStartOf="@+id/textView2"
                                         app:layout_constraintStart_toStartOf="parent"
                                         app:layout_constraintTop_toBottomOf="@+id/imageView16"
                                         tools:ignore="MissingConstraints" />
@@ -253,15 +278,12 @@
                                         android:id="@+id/textView12"
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
-                                        android:layout_marginStart="10dp"
+                                        android:layout_marginStart="12dp"
                                         android:layout_marginTop="108dp"
-                                        android:layout_marginEnd="33dp"
                                         android:layout_marginBottom="14dp"
                                         android:text="QUOTATIONS"
                                         android:textSize="10dp"
                                         app:layout_constraintBottom_toTopOf="@+id/imageView27"
-                                        app:layout_constraintEnd_toStartOf="@+id/textView2"
-                                        app:layout_constraintHorizontal_bias="0.0"
                                         app:layout_constraintStart_toStartOf="parent"
                                         app:layout_constraintTop_toBottomOf="@+id/imageView16"
                                         tools:ignore="MissingConstraints" />
@@ -316,6 +338,7 @@
                                         android:layout_width="45dp"
                                         android:layout_height="59dp"
 
+                                        android:layout_marginStart="33dp"
                                         android:layout_marginTop="59dp"
                                         android:layout_marginEnd="38dp"
                                         android:layout_marginBottom="7dp"
@@ -331,12 +354,10 @@
                                         android:layout_width="45dp"
                                         android:layout_height="59dp"
 
-                                        android:layout_marginStart="18dp"
-                                        android:layout_marginTop="59dp"
-                                        android:layout_marginEnd="38dp"
+                                        android:layout_marginStart="16dp"
+                                        android:layout_marginTop="61dp"
                                         android:layout_marginBottom="7dp"
                                         app:layout_constraintBottom_toTopOf="@+id/textView"
-                                        app:layout_constraintEnd_toStartOf="@+id/imageView15"
                                         app:layout_constraintStart_toStartOf="parent"
                                         app:layout_constraintTop_toTopOf="parent"
                                         app:srcCompat="@drawable/tick1"
@@ -347,13 +368,10 @@
                                         android:layout_width="45dp"
                                         android:layout_height="59dp"
 
-                                        android:layout_marginStart="19dp"
+                                        android:layout_marginStart="16dp"
                                         android:layout_marginTop="168dp"
-                                        android:layout_marginEnd="2dp"
                                         android:layout_marginBottom="2dp"
                                         app:layout_constraintBottom_toTopOf="@+id/textView12"
-                                        app:layout_constraintEnd_toStartOf="@+id/textView12"
-                                        app:layout_constraintHorizontal_bias="0.0"
                                         app:layout_constraintStart_toStartOf="parent"
                                         app:layout_constraintTop_toTopOf="parent"
                                         app:srcCompat="@drawable/tick1"
@@ -366,10 +384,8 @@
 
                                         android:layout_marginStart="16dp"
                                         android:layout_marginTop="260dp"
-                                        android:layout_marginEnd="40dp"
                                         android:layout_marginBottom="2dp"
                                         app:layout_constraintBottom_toTopOf="@+id/textView11"
-                                        app:layout_constraintEnd_toStartOf="@+id/imageView28"
                                         app:layout_constraintStart_toStartOf="parent"
                                         app:layout_constraintTop_toTopOf="parent"
                                         app:srcCompat="@drawable/tick1"
@@ -396,7 +412,7 @@
                                         android:layout_height="59dp"
 
                                         android:layout_marginStart="38dp"
-                                        android:layout_marginTop="256dp"
+                                        android:layout_marginTop="260dp"
                                         android:layout_marginEnd="15dp"
                                         android:layout_marginBottom="3dp"
                                         app:layout_constraintBottom_toTopOf="@+id/textView19"
@@ -426,7 +442,7 @@
                                         android:layout_width="45dp"
                                         android:layout_height="59dp"
 
-                                        android:layout_marginTop="256dp"
+                                        android:layout_marginTop="260dp"
                                         android:layout_marginBottom="3dp"
                                         app:layout_constraintBottom_toTopOf="@+id/textView17"
                                         app:layout_constraintEnd_toStartOf="@+id/imageView31"
@@ -440,7 +456,7 @@
                                         android:layout_width="45dp"
                                         android:layout_height="59dp"
 
-                                        android:layout_marginTop="164dp"
+                                        android:layout_marginTop="168dp"
                                         android:layout_marginBottom="1dp"
                                         app:layout_constraintBottom_toTopOf="@+id/textView16"
                                         app:layout_constraintEnd_toStartOf="@+id/imageView24"
@@ -455,7 +471,7 @@
                                         android:layout_height="59dp"
 
                                         android:layout_marginStart="37dp"
-                                        android:layout_marginTop="256dp"
+                                        android:layout_marginTop="260dp"
                                         android:layout_marginEnd="39dp"
                                         android:layout_marginBottom="1dp"
                                         app:layout_constraintBottom_toTopOf="@+id/textView15"
@@ -470,7 +486,7 @@
                                         android:layout_width="45dp"
                                         android:layout_height="59dp"
 
-                                        android:layout_marginStart="40dp"
+                                        android:layout_marginStart="33dp"
                                         android:layout_marginTop="168dp"
                                         android:layout_marginEnd="36dp"
                                         app:layout_constraintBottom_toTopOf="@+id/textView13"
@@ -488,7 +504,6 @@
                                         android:layout_marginStart="33dp"
                                         android:layout_marginTop="260dp"
                                         app:layout_constraintBottom_toTopOf="@+id/textView14"
-                                        app:layout_constraintEnd_toStartOf="@+id/imageView29"
                                         app:layout_constraintStart_toEndOf="@+id/textView11"
                                         app:layout_constraintTop_toTopOf="parent"
                                         app:srcCompat="@drawable/tick1"
@@ -498,12 +513,13 @@
                                         android:id="@+id/textView2"
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
+                                        android:layout_marginStart="95dp"
                                         android:layout_marginBottom="24dp"
                                         android:text="REWARDS"
                                         android:textSize="10dp"
                                         app:layout_constraintBottom_toTopOf="@+id/imageView26"
                                         app:layout_constraintEnd_toStartOf="@+id/textView5"
-                                        app:layout_constraintStart_toEndOf="@+id/textView"
+                                        app:layout_constraintStart_toStartOf="parent"
                                         app:layout_constraintTop_toBottomOf="@+id/imageView15"
                                         tools:ignore="MissingConstraints" />
 
@@ -511,37 +527,42 @@
                                         android:id="@+id/textView14"
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
+                                        android:layout_marginStart="92dp"
                                         android:layout_marginTop="200dp"
+                                        android:layout_marginEnd="21dp"
                                         android:layout_marginBottom="63dp"
-                                        android:text="COMPLAINS"
+                                        android:text="REINSURANCE"
                                         android:textSize="10dp"
                                         app:layout_constraintBottom_toBottomOf="parent"
-                                        app:layout_constraintEnd_toStartOf="@+id/textView5"
-                                        app:layout_constraintHorizontal_bias="0.578"
-                                        app:layout_constraintStart_toEndOf="@+id/textView"
+                                        app:layout_constraintEnd_toStartOf="@+id/textView15"
+                                        app:layout_constraintStart_toStartOf="parent"
                                         app:layout_constraintTop_toBottomOf="@+id/imageView15"
+                                        app:layout_constraintVertical_bias="0.0"
                                         tools:ignore="MissingConstraints" />
 
                                     <TextView
                                         android:id="@+id/textView13"
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
+                                        android:layout_marginStart="100dp"
                                         android:layout_marginTop="108dp"
+                                        android:layout_marginEnd="11dp"
                                         android:layout_marginBottom="14dp"
                                         android:text="UNDERWTIRING"
                                         android:textSize="10dp"
                                         app:layout_constraintBottom_toTopOf="@+id/imageView28"
-                                        app:layout_constraintEnd_toStartOf="@+id/textView5"
-                                        app:layout_constraintHorizontal_bias="0.578"
-                                        app:layout_constraintStart_toEndOf="@+id/textView"
+                                        app:layout_constraintEnd_toStartOf="@+id/textView16"
+                                        app:layout_constraintStart_toStartOf="parent"
                                         app:layout_constraintTop_toBottomOf="@+id/imageView15"
+                                        app:layout_constraintVertical_bias="0.6"
                                         tools:ignore="MissingConstraints" />
 
                                     <TextView
                                         android:id="@+id/textView3"
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
-                                        android:layout_marginEnd="3dp"
+                                        android:layout_marginStart="28dp"
+                                        android:layout_marginEnd="20dp"
                                         android:layout_marginBottom="24dp"
                                         android:text="SERVICE "
                                         android:textSize="10dp"
@@ -555,15 +576,15 @@
                                         android:id="@+id/textView19"
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
+                                        android:layout_marginStart="45dp"
                                         android:layout_marginTop="200dp"
-                                        android:layout_marginEnd="3dp"
+                                        android:layout_marginEnd="16dp"
                                         android:layout_marginBottom="63dp"
-                                        android:text="COMMISSIONS"
+                                        android:text="PRODUCT"
                                         android:textSize="10dp"
                                         app:layout_constraintBottom_toBottomOf="parent"
                                         app:layout_constraintEnd_toEndOf="parent"
-                                        app:layout_constraintHorizontal_bias="1.0"
-                                        app:layout_constraintStart_toEndOf="@+id/textView4"
+                                        app:layout_constraintStart_toEndOf="@+id/textView17"
                                         app:layout_constraintTop_toBottomOf="@+id/imageView12"
                                         tools:ignore="MissingConstraints" />
 
@@ -571,13 +592,15 @@
                                         android:id="@+id/textView20"
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
+                                        android:layout_marginStart="16dp"
                                         android:layout_marginTop="108dp"
-                                        android:layout_marginEnd="21dp"
+                                        android:layout_marginEnd="26dp"
                                         android:layout_marginBottom="11dp"
-                                        android:text="SERVICE "
+                                        android:text="REINSURANCE"
                                         android:textSize="10dp"
                                         app:layout_constraintBottom_toTopOf="@+id/imageView31"
                                         app:layout_constraintEnd_toEndOf="parent"
+                                        app:layout_constraintStart_toEndOf="@+id/textView18"
                                         app:layout_constraintTop_toBottomOf="@+id/imageView12"
                                         app:layout_constraintVertical_bias="0.6"
                                         tools:ignore="MissingConstraints" />
@@ -586,7 +609,7 @@
                                         android:id="@+id/textView4"
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
-                                        android:layout_marginEnd="25dp"
+                                        android:layout_marginStart="31dp"
                                         android:layout_marginBottom="24dp"
                                         android:text="COMMISSIONS"
                                         android:textSize="10dp"
@@ -600,9 +623,8 @@
                                         android:id="@+id/textView17"
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
-                                        android:layout_marginStart="31dp"
+                                        android:layout_marginStart="35dp"
                                         android:layout_marginTop="200dp"
-                                        android:layout_marginEnd="39dp"
                                         android:layout_marginBottom="63dp"
                                         android:text="POLICY "
                                         android:textSize="10dp"
@@ -610,22 +632,19 @@
                                         app:layout_constraintEnd_toStartOf="@+id/textView19"
                                         app:layout_constraintStart_toEndOf="@+id/textView15"
                                         app:layout_constraintTop_toBottomOf="@+id/imageView13"
-                                        app:layout_constraintVertical_bias="0.0"
                                         tools:ignore="MissingConstraints" />
 
                                     <TextView
                                         android:id="@+id/textView18"
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
-                                        android:layout_marginStart="25dp"
+                                        android:layout_marginStart="24dp"
                                         android:layout_marginTop="108dp"
-                                        android:layout_marginEnd="54dp"
                                         android:layout_marginBottom="11dp"
-                                        android:text="SERVICE"
+                                        android:text="COMPLAINS"
                                         android:textSize="10dp"
                                         app:layout_constraintBottom_toTopOf="@+id/imageView30"
                                         app:layout_constraintEnd_toStartOf="@+id/textView20"
-                                        app:layout_constraintHorizontal_bias="0.0"
                                         app:layout_constraintStart_toEndOf="@+id/textView16"
                                         app:layout_constraintTop_toBottomOf="@+id/imageView13"
                                         app:layout_constraintVertical_bias="0.6"
@@ -635,8 +654,7 @@
                                         android:id="@+id/textView5"
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
-                                        android:layout_marginStart="24dp"
-                                        android:layout_marginEnd="26dp"
+                                        android:layout_marginStart="41dp"
                                         android:layout_marginBottom="24dp"
                                         android:text="BROKERS"
                                         android:textSize="10dp"
@@ -650,35 +668,37 @@
                                         android:id="@+id/textView15"
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
-                                        android:layout_marginStart="24dp"
                                         android:layout_marginTop="200dp"
-                                        android:layout_marginEnd="26dp"
                                         android:layout_marginBottom="65dp"
                                         android:text="RETIREMENT"
                                         android:textSize="10dp"
                                         app:layout_constraintBottom_toBottomOf="parent"
-                                        app:layout_constraintEnd_toStartOf="@+id/textView4"
-                                        app:layout_constraintHorizontal_bias="0.0"
-                                        app:layout_constraintStart_toEndOf="@+id/textView2"
+                                        app:layout_constraintEnd_toStartOf="@+id/textView17"
+                                        app:layout_constraintStart_toEndOf="@+id/textView14"
                                         app:layout_constraintTop_toBottomOf="@+id/imageView14"
+                                        app:layout_constraintVertical_bias="1.0"
                                         tools:ignore="MissingConstraints" />
 
                                     <TextView
                                         android:id="@+id/textView16"
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
-                                        android:layout_marginStart="24dp"
+                                        android:layout_marginStart="11dp"
                                         android:layout_marginTop="108dp"
-                                        android:layout_marginEnd="26dp"
+                                        android:layout_marginEnd="18dp"
                                         android:layout_marginBottom="13dp"
-                                        android:text="REINSURANCE"
+                                        android:text="CLAIMS"
                                         android:textSize="10dp"
                                         app:layout_constraintBottom_toTopOf="@+id/imageView29"
-                                        app:layout_constraintEnd_toStartOf="@+id/textView4"
-                                        app:layout_constraintHorizontal_bias="0.0"
-                                        app:layout_constraintStart_toEndOf="@+id/textView2"
+                                        app:layout_constraintEnd_toStartOf="@+id/textView18"
+                                        app:layout_constraintStart_toEndOf="@+id/textView13"
                                         app:layout_constraintTop_toBottomOf="@+id/imageView14"
+                                        app:layout_constraintVertical_bias="0.666"
                                         tools:ignore="MissingConstraints" />
+
+
+
+
 
                                 </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -742,14 +762,15 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginStart="1dp"
                                 android:layout_marginBottom="26dp"
-                                android:text="QUICK CLAIMS"
+                                android:fontFamily="sans-serif-black"
 
-                                android:textColor="#006600"
+                                android:text="Quick Claims"
+                                android:textColor="#343734"
+
                                 android:textSize="25dp"
-
                                 android:textStyle="bold"
-                                app:layout_constraintBottom_toBottomOf="parent"
 
+                                app:layout_constraintBottom_toBottomOf="parent"
                                 app:layout_constraintStart_toStartOf="parent"
                                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -798,49 +819,6 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="400dp">
 
-
-                                    <TextView
-                                        android:id="@+id/text9View"
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content"
-                                        android:layout_marginStart="36dp"
-                                        android:layout_marginBottom="27dp"
-
-                                        android:text="Lodge Claim"
-                                        android:textSize="10dp"
-                                        app:layout_constraintBottom_toTopOf="@+id/imageV0iew29"
-                                        app:layout_constraintStart_toEndOf="@+id/te2xtView2"
-                                        app:layout_constraintTop_toBottomOf="@+id/imageVie2w25"
-                                        tools:ignore="MissingConstraints" />
-
-                                    <TextView
-                                        android:id="@+id/text2View11"
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content"
-                                        android:layout_marginStart="16dp"
-                                        android:layout_marginBottom="64dp"
-                                        android:text="Track Claim"
-
-                                        android:textSize="10dp"
-                                        app:layout_constraintBottom_toBottomOf="parent"
-                                        app:layout_constraintEnd_toStartOf="@+id/text9View14"
-                                        app:layout_constraintStart_toStartOf="parent"
-                                        tools:ignore="MissingConstraints" />
-
-                                    <TextView
-                                        android:id="@+id/te9xtView12"
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content"
-                                        android:layout_marginStart="16dp"
-                                        android:layout_marginBottom="27dp"
-                                        android:text="Cancel Claim"
-
-                                        android:textSize="10dp"
-
-                                        app:layout_constraintBottom_toTopOf="@+id/i7mageView27"
-                                        app:layout_constraintStart_toStartOf="parent"
-                                        app:layout_constraintTop_toBottomOf="@+id/imageV9iew22"
-                                        tools:ignore="MissingConstraints" />
 
                                     <ImageView
                                         android:id="@+id/imageV3iew12"
@@ -920,283 +898,38 @@
                                         app:srcCompat="@drawable/tick1"
                                         tools:ignore="MissingConstraints" />
 
-                                    <ImageView
-                                        android:id="@+id/imageV9iew22"
-                                        android:layout_width="45dp"
-                                        android:layout_height="59dp"
-
-                                        android:layout_marginStart="16dp"
-                                        android:layout_marginTop="160dp"
-
-                                        app:layout_constraintBottom_toTopOf="@+id/te9xtView12"
-                                        app:layout_constraintStart_toStartOf="parent"
-                                        app:layout_constraintTop_toTopOf="parent"
-                                        app:srcCompat="@drawable/tick1"
-                                        tools:ignore="MissingConstraints" />
-
-                                    <ImageView
-                                        android:id="@+id/i7mageView27"
-                                        android:layout_width="45dp"
-                                        android:layout_height="59dp"
-
-                                        android:layout_marginStart="16dp"
-                                        android:layout_marginTop="260dp"
-                                        android:layout_marginBottom="3dp"
-
-                                        app:layout_constraintBottom_toTopOf="@+id/text2View11"
-                                        app:layout_constraintStart_toStartOf="parent"
-                                        app:layout_constraintTop_toTopOf="parent"
-                                        app:srcCompat="@drawable/tick1"
-                                        tools:ignore="MissingConstraints" />
-
-                                    <ImageView
-                                        android:id="@+id/imageV2iew23"
-                                        android:layout_width="45dp"
-                                        android:layout_height="59dp"
-
-                                        android:layout_marginStart="47dp"
-                                        android:layout_marginTop="160dp"
-
-                                        android:layout_marginEnd="12dp"
-
-                                        app:layout_constraintBottom_toTopOf="@+id/text4View20"
-                                        app:layout_constraintEnd_toEndOf="parent"
-                                        app:layout_constraintStart_toEndOf="@+id/imageVi2ew24"
-                                        app:layout_constraintTop_toTopOf="parent"
-                                        app:srcCompat="@drawable/tick1"
-                                        tools:ignore="MissingConstraints" />
-
-                                    <ImageView
-                                        android:id="@+id/imageVie7w31"
-                                        android:layout_width="45dp"
-                                        android:layout_height="59dp"
-
-                                        android:layout_marginStart="43dp"
-                                        android:layout_marginTop="260dp"
-
-                                        android:layout_marginEnd="16dp"
-
-                                        android:layout_marginBottom="4dp"
-                                        app:layout_constraintBottom_toTopOf="@+id/te3xtView19"
-                                        app:layout_constraintEnd_toEndOf="parent"
-                                        app:layout_constraintStart_toEndOf="@+id/imageView730"
-                                        app:layout_constraintTop_toTopOf="parent"
-                                        app:srcCompat="@drawable/tick1"
-                                        tools:ignore="MissingConstraints" />
-
-                                    <ImageView
-                                        android:id="@+id/imageVi2ew24"
-                                        android:layout_width="45dp"
-                                        android:layout_height="59dp"
-
-                                        android:layout_marginStart="34dp"
-
-                                        android:layout_marginTop="160dp"
-                                        app:layout_constraintBottom_toTopOf="@+id/t1extView3"
-                                        app:layout_constraintStart_toEndOf="@+id/imageVie2w25"
-                                        app:layout_constraintTop_toTopOf="parent"
-                                        app:srcCompat="@drawable/tick1"
-                                        tools:ignore="MissingConstraints" />
-
-                                    <ImageView
-                                        android:id="@+id/imageView730"
-                                        android:layout_width="45dp"
-                                        android:layout_height="59dp"
-
-                                        android:layout_marginStart="34dp"
-
-                                        android:layout_marginTop="260dp"
-                                        android:layout_marginBottom="3dp"
-                                        app:layout_constraintBottom_toTopOf="@+id/xtView17"
-                                        app:layout_constraintStart_toEndOf="@+id/imageV0iew29"
-                                        app:layout_constraintTop_toTopOf="parent"
-                                        app:srcCompat="@drawable/tick1"
-                                        tools:ignore="MissingConstraints" />
-
-                                    <ImageView
-                                        android:id="@+id/imageVie2w25"
-                                        android:layout_width="45dp"
-                                        android:layout_height="59dp"
-
-                                        android:layout_marginStart="34dp"
-
-                                        android:layout_marginTop="160dp"
-                                        app:layout_constraintBottom_toTopOf="@+id/text9View"
-                                        app:layout_constraintStart_toEndOf="@+id/im8ageView26"
-                                        app:layout_constraintTop_toTopOf="parent"
-                                        app:srcCompat="@drawable/tick1"
-                                        tools:ignore="MissingConstraints" />
-
-                                    <ImageView
-                                        android:id="@+id/imageV0iew29"
-                                        android:layout_width="45dp"
-                                        android:layout_height="59dp"
-
-                                        android:layout_marginStart="34dp"
-
-                                        android:layout_marginTop="260dp"
-                                        android:layout_marginBottom="3dp"
-                                        app:layout_constraintBottom_toTopOf="@+id/texView15"
-                                        app:layout_constraintStart_toEndOf="@+id/imageVi5ew28"
-                                        app:layout_constraintTop_toTopOf="parent"
-                                        app:srcCompat="@drawable/tick1"
-                                        tools:ignore="MissingConstraints" />
-
-                                    <ImageView
-                                        android:id="@+id/im8ageView26"
-                                        android:layout_width="45dp"
-                                        android:layout_height="59dp"
-
-                                        android:layout_marginStart="43dp"
-
-                                        android:layout_marginTop="160dp"
-                                        app:layout_constraintBottom_toTopOf="@+id/te2xtView2"
-                                        app:layout_constraintStart_toEndOf="@+id/imageV9iew22"
-                                        app:layout_constraintTop_toTopOf="parent"
-                                        app:srcCompat="@drawable/tick1"
-                                        tools:ignore="MissingConstraints" />
-
-                                    <ImageView
-                                        android:id="@+id/imageVi5ew28"
-                                        android:layout_width="45dp"
-                                        android:layout_height="59dp"
-
-                                        android:layout_marginStart="43dp"
-
-                                        android:layout_marginTop="260dp"
-                                        android:layout_marginBottom="3dp"
-                                        app:layout_constraintBottom_toTopOf="@+id/text9View14"
-                                        app:layout_constraintStart_toEndOf="@+id/i7mageView27"
-                                        app:layout_constraintTop_toTopOf="parent"
-                                        app:srcCompat="@drawable/tick1"
-                                        tools:ignore="MissingConstraints" />
-
-                                    <TextView
-                                        android:id="@+id/te2xtView2"
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content"
-                                        android:layout_marginStart="25dp"
-                                        android:layout_marginBottom="27dp"
-
-                                        android:text="Submit Documentation"
-                                        android:textSize="10dp"
-                                        app:layout_constraintBottom_toTopOf="@+id/imageVi5ew28"
-                                        app:layout_constraintStart_toEndOf="@+id/te9xtView12"
-                                        app:layout_constraintTop_toBottomOf="@+id/im8ageView26"
-                                        tools:ignore="MissingConstraints" />
-
-                                    <TextView
-                                        android:id="@+id/text9View14"
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content"
-                                        android:layout_marginStart="36dp"
-                                        android:layout_marginEnd="23dp"
-                                        android:layout_marginBottom="64dp"
-                                        android:text="Administer"
-
-                                        android:textSize="10dp"
-                                        app:layout_constraintBottom_toBottomOf="parent"
-                                        app:layout_constraintEnd_toStartOf="@+id/texView15"
-                                        app:layout_constraintStart_toEndOf="@+id/text2View11"
-                                        tools:ignore="MissingConstraints" />
-
                                     <TextView
                                         android:id="@+id/text7View13"
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
-                                        android:layout_marginStart="40dp"
-                                        android:layout_marginBottom="31dp"
+                                        android:layout_marginStart="32dp"
 
                                         android:text="Assessor Tasks"
                                         android:textSize="10dp"
-                                        app:layout_constraintBottom_toTopOf="@+id/imageV2iew23"
                                         app:layout_constraintStart_toEndOf="@+id/textVie"
                                         app:layout_constraintTop_toBottomOf="@+id/imageV3iew12"
-                                        tools:ignore="MissingConstraints" />
-
-                                    <TextView
-                                        android:id="@+id/t1extView3"
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content"
-                                        android:layout_marginStart="29dp"
-                                        android:layout_marginEnd="108dp"
-                                        android:text="View Claims "
-
-                                        android:textSize="10dp"
-
-                                        app:layout_constraintEnd_toEndOf="parent"
-                                        app:layout_constraintStart_toEndOf="@+id/text9View"
-                                        app:layout_constraintTop_toBottomOf="@+id/imageVi2ew24"
-                                        tools:ignore="MissingConstraints" />
-
-                                    <TextView
-                                        android:id="@+id/te3xtView19"
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content"
-                                        android:layout_marginStart="43dp"
-                                        android:layout_marginEnd="3dp"
-                                        android:layout_marginBottom="63dp"
-                                        android:text="COMMISSIONS"
-                                        android:textSize="10dp"
-                                        app:layout_constraintBottom_toBottomOf="parent"
-
-                                        app:layout_constraintEnd_toEndOf="parent"
-                                        app:layout_constraintStart_toEndOf="@+id/xtView17"
-                                        app:layout_constraintTop_toBottomOf="@+id/imageVie7w31"
-                                        tools:ignore="MissingConstraints" />
-
-                                    <TextView
-                                        android:id="@+id/text4View20"
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content"
-                                        android:layout_marginStart="51dp"
-                                        android:layout_marginEnd="16dp"
-                                        android:text="SERVICE "
-
-                                        android:textSize="10dp"
-                                        app:layout_constraintEnd_toEndOf="parent"
-                                        app:layout_constraintStart_toEndOf="@+id/t1extView3"
-                                        app:layout_constraintTop_toBottomOf="@+id/imageV2iew23"
                                         tools:ignore="MissingConstraints" />
 
                                     <TextView
                                         android:id="@+id/textVie6w4"
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
-                                        android:layout_marginStart="36dp"
-                                        android:layout_marginBottom="31dp"
+                                        android:layout_marginStart="24dp"
 
                                         android:text="COMMISSIONS"
                                         android:textSize="10dp"
-                                        app:layout_constraintBottom_toTopOf="@+id/imageVie2w25"
                                         app:layout_constraintStart_toEndOf="@+id/textVie5"
                                         app:layout_constraintTop_toBottomOf="@+id/image8View15"
-                                        tools:ignore="MissingConstraints" />
-
-                                    <TextView
-                                        android:id="@+id/xtView17"
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content"
-                                        android:layout_marginStart="19dp"
-                                        android:layout_marginBottom="64dp"
-                                        android:text="POLICY "
-
-                                        android:textSize="10dp"
-                                        app:layout_constraintBottom_toBottomOf="parent"
-                                        app:layout_constraintStart_toEndOf="@+id/texView15"
-                                        app:layout_constraintTop_toBottomOf="@+id/imageView730"
                                         tools:ignore="MissingConstraints" />
 
                                     <TextView
                                         android:id="@+id/textVie"
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
-                                        android:layout_marginStart="12dp"
-                                        android:layout_marginBottom="31dp"
+                                        android:layout_marginStart="28dp"
 
                                         android:text="SERVICE"
                                         android:textSize="10dp"
-                                        app:layout_constraintBottom_toTopOf="@+id/imageVi2ew24"
                                         app:layout_constraintStart_toEndOf="@+id/textVie6w4"
                                         app:layout_constraintTop_toBottomOf="@+id/imag3eView14"
                                         tools:ignore="MissingConstraints" />
@@ -1206,27 +939,11 @@
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
                                         android:layout_marginStart="22dp"
-                                        android:layout_marginBottom="31dp"
 
                                         android:text="BROKERS"
                                         android:textSize="10dp"
-                                        app:layout_constraintBottom_toTopOf="@+id/im8ageView26"
                                         app:layout_constraintStart_toEndOf="@+id/textVie16"
                                         app:layout_constraintTop_toBottomOf="@+id/imageVi1ew16"
-                                        tools:ignore="MissingConstraints" />
-
-                                    <TextView
-                                        android:id="@+id/texView15"
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content"
-                                        android:layout_marginStart="23dp"
-                                        android:layout_marginBottom="64dp"
-                                        android:text="RETIREMENT"
-
-                                        android:textSize="10dp"
-                                        app:layout_constraintBottom_toBottomOf="parent"
-                                        app:layout_constraintStart_toEndOf="@+id/text9View14"
-                                        app:layout_constraintTop_toBottomOf="@+id/imageV0iew29"
                                         tools:ignore="MissingConstraints" />
 
                                     <TextView
@@ -1234,12 +951,10 @@
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
                                         android:layout_marginStart="16dp"
-                                        android:layout_marginBottom="31dp"
 
 
                                         android:text="REINSURANCE"
                                         android:textSize="10dp"
-                                        app:layout_constraintBottom_toTopOf="@+id/imageV9iew22"
                                         app:layout_constraintStart_toStartOf="parent"
                                         app:layout_constraintTop_toBottomOf="@+id/imageView213"
                                         tools:ignore="MissingConstraints" />
@@ -1302,14 +1017,15 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginStart="1dp"
                                 android:layout_marginBottom="26dp"
-                                android:text="WORKLIST PORTAL"
+                                android:fontFamily="sans-serif-black"
 
-                                android:textColor="#006600"
+                                android:text="Worklist Portal"
+                                android:textColor="#343734"
+
                                 android:textSize="25dp"
-
                                 android:textStyle="bold"
-                                app:layout_constraintBottom_toBottomOf="parent"
 
+                                app:layout_constraintBottom_toBottomOf="parent"
                                 app:layout_constraintStart_toStartOf="parent"
                                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -1358,462 +1074,176 @@
                                     android:layout_width="match_parent"
                                     android:layout_height="400dp">
 
+                                <ImageView
+                                    android:id="@+id/mageVuiew13"
+                                    android:layout_width="45dp"
+                                    android:layout_height="59dp"
+
+                                    android:layout_marginStart="16dp"
+
+
+                                    android:layout_marginTop="56dp"
+                                    android:layout_marginEnd="39dp"
+                                    app:layout_constraintBottom_toTopOf="@+id/teVie196"
+                                    app:layout_constraintEnd_toStartOf="@+id/magi1aew16"
+                                    app:layout_constraintStart_toStartOf="parent"
+                                    app:layout_constraintTop_toTopOf="parent"
+                                    app:srcCompat="@drawable/tick1"
+                                    tools:ignore="MissingConstraints" />
+
+                                <ImageView
+                                    android:id="@+id/iwaVie141"
+                                    android:layout_width="45dp"
+                                    android:layout_height="59dp"
+
+                                    android:layout_marginStart="38dp"
+
+                                    android:layout_marginTop="56dp"
+                                    android:layout_marginEnd="40dp"
+                                    app:layout_constraintBottom_toTopOf="@+id/tetV3e42"
+                                    app:layout_constraintEnd_toStartOf="@+id/imageie151j"
+                                    app:layout_constraintStart_toEndOf="@+id/magi1aew16"
+                                    app:layout_constraintTop_toTopOf="parent"
+                                    app:srcCompat="@drawable/tick1"
+                                    tools:ignore="MissingConstraints" />
+
+                                <ImageView
+                                    android:id="@+id/imageie151j"
+                                    android:layout_width="45dp"
+                                    android:layout_height="59dp"
+
+                                    android:layout_marginStart="40dp"
+
+                                    android:layout_marginTop="56dp"
+                                    app:layout_constraintBottom_toTopOf="@+id/tfetVue2"
+                                    app:layout_constraintStart_toEndOf="@+id/iwaVie141"
+                                    app:layout_constraintTop_toTopOf="parent"
+                                    app:srcCompat="@drawable/tick1"
+                                    tools:ignore="MissingConstraints" />
+
+                                <ImageView
+                                    android:id="@+id/magi1aew16"
+                                    android:layout_width="45dp"
+                                    android:layout_height="59dp"
+
+                                    android:layout_marginStart="100dp"
+
+                                    android:layout_marginTop="56dp"
+                                    app:layout_constraintBottom_toTopOf="@+id/texotV5"
+                                    app:layout_constraintStart_toStartOf="parent"
+                                    app:layout_constraintTop_toTopOf="parent"
+                                    app:srcCompat="@drawable/tick1"
+                                    tools:ignore="MissingConstraints" />
+
+                                <TextView
+                                    android:id="@+id/tetV3e42"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+
+                                    android:layout_marginStart="38dp"
+
+                                    android:text="CONSULTANT"
+                                    android:textSize="10dp"
+                                    app:layout_constraintStart_toEndOf="@+id/texotV5"
+                                    app:layout_constraintTop_toBottomOf="@+id/iwaVie141"
+                                    tools:ignore="MissingConstraints" />
+
+                                <TextView
+                                    android:id="@+id/tfetVue2"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+
+                                    android:layout_marginStart="33dp"
+
+                                    android:text="MANAGER"
+
+                                    android:textSize="10dp"
+                                    app:layout_constraintStart_toEndOf="@+id/tetV3e42"
+                                    app:layout_constraintTop_toBottomOf="@+id/imageie151j"
+                                    tools:ignore="MissingConstraints" />
+
+                                <TextView
+                                    android:id="@+id/texotV5"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+
+                                    android:layout_marginStart="38dp"
+
+                                    android:text="Admin"
+
+                                    android:textSize="10dp"
+                                    app:layout_constraintStart_toEndOf="@+id/teVie196"
+                                    app:layout_constraintTop_toBottomOf="@+id/magi1aew16"
+                                    tools:ignore="MissingConstraints" />
+
+                                <TextView
+                                    android:id="@+id/teVie196"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="16dp"
+
+
+                                    android:text="CUSTOMER "
+                                    android:textSize="10dp"
+
+
+                                    app:layout_constraintStart_toStartOf="parent"
+                                    app:layout_constraintTop_toBottomOf="@+id/mageVuiew13"
+                                    tools:ignore="MissingConstraints" />
+
+                                <TextView
+                                    android:id="@+id/textView8"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="26dp"
+                                    android:layout_marginBottom="257dp"
+                                    android:text="Portal"
+                                    android:textSize="10dp"
+                                    app:layout_constraintBottom_toBottomOf="parent"
+                                    app:layout_constraintStart_toStartOf="parent"
+                                    app:layout_constraintTop_toBottomOf="@+id/teVie196" />
+
+                                <TextView
+                                    android:id="@+id/txtView9"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="61dp"
+                                    android:layout_marginEnd="106dp"
+                                    android:layout_marginBottom="257dp"
+                                    android:text="Portal"
+                                    android:textSize="10dp"
+                                    app:layout_constraintBottom_toBottomOf="parent"
+                                    app:layout_constraintEnd_toEndOf="parent"
+                                    app:layout_constraintStart_toEndOf="@+id/textView0"
+                                    app:layout_constraintTop_toBottomOf="@+id/tfetVue2" />
+
+                                <TextView
+                                    android:id="@+id/textView0"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="56dp"
+                                    android:layout_marginBottom="257dp"
+                                    android:text="Portal"
+                                    android:textSize="10dp"
+                                    app:layout_constraintBottom_toBottomOf="parent"
+                                    app:layout_constraintStart_toEndOf="@+id/textViw21"
+                                    app:layout_constraintTop_toBottomOf="@+id/tetV3e42" />
+
+                                <TextView
+                                    android:id="@+id/textViw21"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_marginStart="56dp"
+                                    android:layout_marginBottom="257dp"
+                                    android:text="Portal"
+                                    android:textSize="10dp"
+                                    app:layout_constraintBottom_toBottomOf="parent"
+                                    app:layout_constraintStart_toEndOf="@+id/textView8"
+                                    app:layout_constraintTop_toBottomOf="@+id/texotV5" />
 
-                                    <TextView
-                                        android:id="@+id/tet9View2"
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content"
 
-                                        android:layout_marginStart="39dp"
-                                        android:layout_marginBottom="27dp"
 
 
-                                        android:text="PREMIUMS"
-                                        android:textSize="10dp"
-                                        app:layout_constraintBottom_toTopOf="@+id/imageiew281"
-                                        app:layout_constraintStart_toEndOf="@+id/t2xtView22"
-                                        app:layout_constraintTop_toBottomOf="@+id/imaeVi2ew241"
-                                        tools:ignore="MissingConstraints" />
-
-                                    <TextView
-                                        android:id="@+id/text2Vie111"
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content"
-                                        android:layout_marginStart="16dp"
-                                        android:layout_marginBottom="64dp"
-
-                                        android:text="CUSTOMER"
-                                        android:textSize="10dp"
-
-                                        app:layout_constraintBottom_toBottomOf="parent"
-                                        app:layout_constraintStart_toStartOf="parent"
-                                        app:layout_constraintTop_toBottomOf="@+id/i7magView272"
-                                        tools:ignore="MissingConstraints" />
-
-                                    <TextView
-                                        android:id="@+id/te9xView122"
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content"
-                                        android:layout_marginStart="104dp"
-                                        android:layout_marginBottom="27dp"
-
-                                        android:text="QUOTATIONS"
-
-
-                                        android:textSize="10dp"
-
-                                        app:layout_constraintBottom_toTopOf="@+id/imgeView7301"
-                                        app:layout_constraintStart_toStartOf="parent"
-                                        app:layout_constraintTop_toBottomOf="@+id/im8agView263"
-                                        tools:ignore="MissingConstraints" />
-
-                                    <ImageView
-                                        android:id="@+id/imaeV3iew121"
-                                        android:layout_width="45dp"
-                                        android:layout_height="59dp"
-
-                                        android:layout_marginStart="34dp"
-
-                                        android:layout_marginTop="56dp"
-
-                                        android:layout_marginEnd="16dp"
-
-                                        app:layout_constraintBottom_toTopOf="@+id/t1etView32"
-                                        app:layout_constraintEnd_toEndOf="parent"
-                                        app:layout_constraintStart_toEndOf="@+id/imag3eVie141"
-                                        app:layout_constraintTop_toTopOf="parent"
-                                        app:srcCompat="@drawable/tick1"
-                                        tools:ignore="MissingConstraints" />
-
-                                    <ImageView
-                                        android:id="@+id/miageView213"
-                                        android:layout_width="45dp"
-                                        android:layout_height="59dp"
-
-                                        android:layout_marginStart="16dp"
-
-
-                                        android:layout_marginTop="56dp"
-
-                                        android:layout_marginEnd="43dp"
-                                        app:layout_constraintBottom_toTopOf="@+id/tetVie162"
-                                        app:layout_constraintEnd_toStartOf="@+id/imagei1ew16"
-                                        app:layout_constraintStart_toStartOf="parent"
-                                        app:layout_constraintTop_toTopOf="parent"
-                                        app:srcCompat="@drawable/tick1"
-                                        tools:ignore="MissingConstraints" />
-
-                                    <ImageView
-                                        android:id="@+id/imag3eVie141"
-                                        android:layout_width="45dp"
-                                        android:layout_height="59dp"
-
-                                        android:layout_marginStart="43dp"
-
-                                        android:layout_marginTop="56dp"
-                                        app:layout_constraintBottom_toTopOf="@+id/textVe2"
-                                        app:layout_constraintStart_toEndOf="@+id/image8iew151"
-                                        app:layout_constraintTop_toTopOf="parent"
-                                        app:srcCompat="@drawable/tick1"
-                                        tools:ignore="MissingConstraints" />
-
-                                    <ImageView
-                                        android:id="@+id/image8iew151"
-                                        android:layout_width="45dp"
-                                        android:layout_height="59dp"
-
-                                        android:layout_marginStart="34dp"
-
-                                        android:layout_marginTop="56dp"
-                                        app:layout_constraintBottom_toTopOf="@+id/textVew42"
-                                        app:layout_constraintStart_toEndOf="@+id/imagei1ew16"
-                                        app:layout_constraintTop_toTopOf="parent"
-                                        app:srcCompat="@drawable/tick1"
-                                        tools:ignore="MissingConstraints" />
-
-                                    <ImageView
-                                        android:id="@+id/imagei1ew16"
-                                        android:layout_width="45dp"
-                                        android:layout_height="59dp"
-
-                                        android:layout_marginStart="104dp"
-                                        android:layout_marginTop="56dp"
-
-                                        app:layout_constraintBottom_toTopOf="@+id/textVe52"
-                                        app:layout_constraintStart_toStartOf="parent"
-                                        app:layout_constraintTop_toTopOf="parent"
-                                        app:srcCompat="@drawable/tick1"
-                                        tools:ignore="MissingConstraints" />
-
-                                    <ImageView
-                                        android:id="@+id/imaeV9iew221"
-                                        android:layout_width="45dp"
-                                        android:layout_height="59dp"
-
-                                        android:layout_marginStart="16dp"
-                                        android:layout_marginTop="160dp"
-
-
-                                        app:layout_constraintBottom_toTopOf="@+id/text7Viw12"
-                                        app:layout_constraintStart_toStartOf="parent"
-                                        app:layout_constraintTop_toTopOf="parent"
-                                        app:srcCompat="@drawable/tick1"
-                                        tools:ignore="MissingConstraints" />
-
-                                    <ImageView
-                                        android:id="@+id/i7magView272"
-                                        android:layout_width="45dp"
-                                        android:layout_height="59dp"
-
-                                        android:layout_marginStart="16dp"
-                                        android:layout_marginTop="260dp"
-                                        android:layout_marginBottom="3dp"
-
-
-                                        app:layout_constraintBottom_toTopOf="@+id/text2Vie111"
-                                        app:layout_constraintStart_toStartOf="parent"
-                                        app:layout_constraintTop_toTopOf="parent"
-                                        app:srcCompat="@drawable/tick1"
-                                        tools:ignore="MissingConstraints" />
-
-                                    <ImageView
-                                        android:id="@+id/imageV2ie232"
-                                        android:layout_width="45dp"
-                                        android:layout_height="59dp"
-
-                                        android:layout_marginStart="38dp"
-                                        android:layout_marginTop="160dp"
-
-                                        android:layout_marginEnd="12dp"
-
-                                        app:layout_constraintBottom_toTopOf="@+id/tet4View202"
-
-                                        app:layout_constraintEnd_toEndOf="parent"
-                                        app:layout_constraintStart_toEndOf="@+id/imaeVi2ew241"
-                                        app:layout_constraintTop_toTopOf="parent"
-                                        app:srcCompat="@drawable/tick1"
-                                        tools:ignore="MissingConstraints" />
-
-                                    <ImageView
-                                        android:id="@+id/imageVe7w31"
-                                        android:layout_width="45dp"
-                                        android:layout_height="59dp"
-
-                                        android:layout_marginStart="34dp"
-                                        android:layout_marginTop="260dp"
-
-                                        android:layout_marginEnd="16dp"
-
-                                        android:layout_marginBottom="4dp"
-
-                                        app:layout_constraintBottom_toTopOf="@+id/te3xtView11"
-                                        app:layout_constraintEnd_toEndOf="parent"
-                                        app:layout_constraintStart_toEndOf="@+id/imageiew281"
-                                        app:layout_constraintTop_toTopOf="parent"
-                                        app:srcCompat="@drawable/tick1"
-                                        tools:ignore="MissingConstraints" />
-
-                                    <ImageView
-                                        android:id="@+id/imaeVi2ew241"
-                                        android:layout_width="45dp"
-                                        android:layout_height="59dp"
-
-                                        android:layout_marginStart="43dp"
-
-                                        android:layout_marginTop="160dp"
-                                        app:layout_constraintBottom_toTopOf="@+id/tet9View2"
-                                        app:layout_constraintStart_toEndOf="@+id/imageVie2w5"
-                                        app:layout_constraintTop_toTopOf="parent"
-                                        app:srcCompat="@drawable/tick1"
-                                        tools:ignore="MissingConstraints" />
-
-                                    <ImageView
-                                        android:id="@+id/imgeView7301"
-                                        android:layout_width="45dp"
-                                        android:layout_height="59dp"
-
-                                        android:layout_marginStart="43dp"
-
-                                        android:layout_marginTop="260dp"
-                                        android:layout_marginBottom="3dp"
-                                        app:layout_constraintBottom_toTopOf="@+id/texViw151"
-                                        app:layout_constraintStart_toEndOf="@+id/i7magView272"
-                                        app:layout_constraintTop_toTopOf="parent"
-                                        app:srcCompat="@drawable/tick1"
-                                        tools:ignore="MissingConstraints" />
-
-                                    <ImageView
-                                        android:id="@+id/imageVie2w5"
-                                        android:layout_width="45dp"
-                                        android:layout_height="59dp"
-
-                                        android:layout_marginStart="34dp"
-
-                                        android:layout_marginTop="160dp"
-                                        app:layout_constraintBottom_toTopOf="@+id/t2xtView22"
-                                        app:layout_constraintStart_toEndOf="@+id/im8agView263"
-                                        app:layout_constraintTop_toTopOf="parent"
-                                        app:srcCompat="@drawable/tick1"
-                                        tools:ignore="MissingConstraints" />
-
-                                    <ImageView
-                                        android:id="@+id/image0iew291"
-                                        android:layout_width="45dp"
-                                        android:layout_height="59dp"
-
-                                        android:layout_marginStart="34dp"
-
-                                        android:layout_marginTop="260dp"
-                                        android:layout_marginBottom="3dp"
-                                        app:layout_constraintBottom_toTopOf="@+id/xtVew171"
-                                        app:layout_constraintStart_toEndOf="@+id/imgeView7301"
-                                        app:layout_constraintTop_toTopOf="parent"
-                                        app:srcCompat="@drawable/tick1"
-                                        tools:ignore="MissingConstraints" />
-
-                                    <ImageView
-                                        android:id="@+id/im8agView263"
-                                        android:layout_width="45dp"
-                                        android:layout_height="59dp"
-
-                                        android:layout_marginStart="43dp"
-
-                                        android:layout_marginTop="160dp"
-                                        app:layout_constraintBottom_toTopOf="@+id/te9xView122"
-                                        app:layout_constraintStart_toEndOf="@+id/imaeV9iew221"
-                                        app:layout_constraintTop_toTopOf="parent"
-                                        app:srcCompat="@drawable/tick1"
-                                        tools:ignore="MissingConstraints" />
-
-                                    <ImageView
-                                        android:id="@+id/imageiew281"
-                                        android:layout_width="45dp"
-                                        android:layout_height="59dp"
-
-                                        android:layout_marginStart="43dp"
-
-                                        android:layout_marginTop="260dp"
-                                        android:layout_marginBottom="3dp"
-                                        app:layout_constraintBottom_toTopOf="@+id/text9Viw141"
-                                        app:layout_constraintStart_toEndOf="@+id/image0iew291"
-                                        app:layout_constraintTop_toTopOf="parent"
-                                        app:srcCompat="@drawable/tick1"
-                                        tools:ignore="MissingConstraints" />
-
-                                    <TextView
-                                        android:id="@+id/t2xtView22"
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content"
-
-                                        android:layout_marginStart="18dp"
-                                        android:text="REWARDS"
-
-                                        android:textSize="10dp"
-                                        app:layout_constraintStart_toEndOf="@+id/te9xView122"
-                                        app:layout_constraintTop_toBottomOf="@+id/imageVie2w5"
-                                        tools:ignore="MissingConstraints" />
-
-                                    <TextView
-                                        android:id="@+id/text9Viw141"
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content"
-                                        android:layout_marginStart="51dp"
-
-                                        android:layout_marginBottom="64dp"
-                                        android:text="COMPLAINS"
-
-                                        android:textSize="10dp"
-                                        app:layout_constraintBottom_toBottomOf="parent"
-                                        app:layout_constraintStart_toEndOf="@+id/xtVew171"
-                                        app:layout_constraintTop_toBottomOf="@+id/imageiew281"
-                                        tools:ignore="MissingConstraints" />
-
-                                    <TextView
-                                        android:id="@+id/text7Viw12"
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content"
-
-                                        android:layout_marginStart="16dp"
-                                        android:layout_marginBottom="27dp"
-
-                                        android:text="UNDERWTIRING"
-                                        android:textSize="10dp"
-                                        app:layout_constraintBottom_toTopOf="@+id/i7magView272"
-                                        app:layout_constraintStart_toStartOf="parent"
-                                        app:layout_constraintTop_toBottomOf="@+id/imaeV9iew221"
-                                        tools:ignore="MissingConstraints" />
-
-                                    <TextView
-                                        android:id="@+id/t1etView32"
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content"
-                                        android:layout_marginStart="44dp"
-                                        android:layout_marginEnd="16dp"
-
-                                        android:text="SERVICE "
-
-                                        android:textSize="10dp"
-
-                                        app:layout_constraintEnd_toEndOf="parent"
-                                        app:layout_constraintStart_toEndOf="@+id/textVe2"
-                                        app:layout_constraintTop_toBottomOf="@+id/imaeV3iew121"
-                                        tools:ignore="MissingConstraints" />
-
-                                    <TextView
-                                        android:id="@+id/te3xtView11"
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content"
-                                        android:layout_marginStart="15dp"
-                                        android:layout_marginEnd="3dp"
-                                        android:layout_marginBottom="63dp"
-                                        android:text="COMMISSIONS"
-
-                                        android:textSize="10dp"
-
-                                        app:layout_constraintBottom_toBottomOf="parent"
-                                        app:layout_constraintEnd_toEndOf="parent"
-                                        app:layout_constraintStart_toEndOf="@+id/text9Viw141"
-                                        app:layout_constraintTop_toBottomOf="@+id/imageVe7w31"
-                                        tools:ignore="MissingConstraints" />
-
-                                    <TextView
-                                        android:id="@+id/tet4View202"
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content"
-                                        android:layout_marginStart="33dp"
-                                        android:layout_marginEnd="20dp"
-
-                                        android:text="SERVICE "
-                                        android:textSize="10dp"
-
-                                        app:layout_constraintEnd_toEndOf="parent"
-                                        app:layout_constraintStart_toEndOf="@+id/tet9View2"
-                                        app:layout_constraintTop_toBottomOf="@+id/imageV2ie232"
-                                        tools:ignore="MissingConstraints" />
-
-                                    <TextView
-                                        android:id="@+id/textVew42"
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content"
-
-                                        android:layout_marginStart="36dp"
-                                        android:text="COMMISSIONS"
-
-                                        android:textSize="10dp"
-                                        app:layout_constraintStart_toEndOf="@+id/textVe52"
-                                        app:layout_constraintTop_toBottomOf="@+id/image8iew151"
-                                        tools:ignore="MissingConstraints" />
-
-                                    <TextView
-                                        android:id="@+id/xtVew171"
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content"
-                                        android:layout_marginStart="19dp"
-
-                                        android:layout_marginBottom="64dp"
-                                        android:text="POLICY "
-
-                                        android:textSize="10dp"
-                                        app:layout_constraintBottom_toBottomOf="parent"
-                                        app:layout_constraintStart_toEndOf="@+id/texViw151"
-                                        app:layout_constraintTop_toBottomOf="@+id/image0iew291"
-                                        tools:ignore="MissingConstraints" />
-
-                                    <TextView
-                                        android:id="@+id/textVe2"
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content"
-
-                                        android:layout_marginStart="21dp"
-                                        android:text="SERVICE"
-
-                                        android:textSize="10dp"
-                                        app:layout_constraintStart_toEndOf="@+id/textVew42"
-                                        app:layout_constraintTop_toBottomOf="@+id/imag3eVie141"
-                                        tools:ignore="MissingConstraints" />
-
-                                    <TextView
-                                        android:id="@+id/textVe52"
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content"
-
-                                        android:layout_marginStart="22dp"
-                                        android:text="BROKERS"
-
-                                        android:textSize="10dp"
-                                        app:layout_constraintStart_toEndOf="@+id/tetVie162"
-                                        app:layout_constraintTop_toBottomOf="@+id/imagei1ew16"
-                                        tools:ignore="MissingConstraints" />
-
-                                    <TextView
-                                        android:id="@+id/texViw151"
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content"
-                                        android:layout_marginStart="36dp"
-
-                                        android:layout_marginBottom="64dp"
-                                        android:text="RETIREMENT"
-
-                                        android:textSize="10dp"
-                                        app:layout_constraintBottom_toBottomOf="parent"
-                                        app:layout_constraintStart_toEndOf="@+id/text2Vie111"
-                                        app:layout_constraintTop_toBottomOf="@+id/imgeView7301"
-                                        tools:ignore="MissingConstraints" />
-
-                                    <TextView
-                                        android:id="@+id/tetVie162"
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content"
-                                        android:layout_marginStart="16dp"
-
-
-                                        android:text="REINSURANCE"
-                                        android:textSize="10dp"
-
-                                        app:layout_constraintStart_toStartOf="parent"
-
-                                        app:layout_constraintTop_toBottomOf="@+id/miageView213"
-                                        tools:ignore="MissingConstraints" />
 
                                 </androidx.constraintlayout.widget.ConstraintLayout>
 
@@ -1874,14 +1304,15 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginStart="1dp"
                                 android:layout_marginBottom="26dp"
-                                android:text="NEW BUSINESS"
+                                android:fontFamily="sans-serif-black"
 
-                                android:textColor="#006600"
+                                android:text="New Business"
+                                android:textColor="#343734"
+
                                 android:textSize="25dp"
-
                                 android:textStyle="bold"
-                                app:layout_constraintBottom_toBottomOf="parent"
 
+                                app:layout_constraintBottom_toBottomOf="parent"
                                 app:layout_constraintStart_toStartOf="parent"
                                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -2015,7 +1446,7 @@
 
                                         android:layout_marginEnd="20dp"
 
-                                        android:text="SERVICE "
+                                        android:text="Medical"
 
                                         android:textSize="10dp"
 
@@ -2029,9 +1460,9 @@
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
 
-                                        android:layout_marginStart="40dp"
+                                        android:layout_marginStart="48dp"
 
-                                        android:text="COMMISSIONS"
+                                        android:text="Funeral"
 
                                         android:textSize="10dp"
                                         app:layout_constraintStart_toEndOf="@+id/textV52"
@@ -2043,9 +1474,9 @@
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
 
-                                        android:layout_marginStart="21dp"
+                                        android:layout_marginStart="48dp"
 
-                                        android:text="SERVICE"
+                                        android:text="Household"
 
                                         android:textSize="10dp"
                                         app:layout_constraintStart_toEndOf="@+id/textVe42"
@@ -2057,9 +1488,9 @@
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
 
-                                        android:layout_marginStart="18dp"
+                                        android:layout_marginStart="47dp"
 
-                                        android:text="BROKERS"
+                                        android:text="Personal"
 
                                         android:textSize="10dp"
                                         app:layout_constraintStart_toEndOf="@+id/teVie162"
@@ -2073,7 +1504,7 @@
                                         android:layout_marginStart="16dp"
 
 
-                                        android:text="REINSURANCE"
+                                        android:text="Business"
                                         android:textSize="10dp"
 
                                         app:layout_constraintStart_toStartOf="parent"
@@ -2081,7 +1512,68 @@
 
                                         app:layout_constraintTop_toBottomOf="@+id/miageView13"
                                         tools:ignore="MissingConstraints" />
-                                </androidx.constraintlayout.widget.ConstraintLayout>
+
+                                    <TextView
+                                        android:id="@+id/textView6"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="16dp"
+                                        android:layout_marginBottom="257dp"
+                                        android:text="Insurance"
+                                        android:textSize="10dp"
+                                        app:layout_constraintBottom_toBottomOf="parent"
+                                        app:layout_constraintStart_toStartOf="parent"
+                                        app:layout_constraintTop_toBottomOf="@+id/teVie162" />
+
+                                    <TextView
+                                        android:id="@+id/textView7i"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="41dp"
+                                        android:layout_marginBottom="257dp"
+                                        android:text="Insurance"
+                                        android:textSize="10dp"
+                                        app:layout_constraintBottom_toBottomOf="parent"
+                                        app:layout_constraintStart_toEndOf="@+id/textView6"
+                                        app:layout_constraintTop_toBottomOf="@+id/textV52" />
+
+                                    <TextView
+                                        android:id="@+id/textViw7i3"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="52dp"
+                                        android:layout_marginBottom="257dp"
+                                        android:text="Insurance"
+                                        android:textSize="10dp"
+                                        app:layout_constraintBottom_toBottomOf="parent"
+                                        app:layout_constraintStart_toEndOf="@+id/textView7i21"
+                                        app:layout_constraintTop_toBottomOf="@+id/tfextVe2" />
+
+                                    <TextView
+                                        android:id="@+id/textViw7i"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="39dp"
+                                        android:layout_marginEnd="18dp"
+                                        android:layout_marginBottom="257dp"
+                                        android:text="Insurance"
+                                        android:textSize="10dp"
+                                        app:layout_constraintBottom_toBottomOf="parent"
+                                        app:layout_constraintEnd_toEndOf="parent"
+                                        app:layout_constraintStart_toEndOf="@+id/textViw7i3"
+                                        app:layout_constraintTop_toBottomOf="@+id/t1eView32" />
+
+                                    <TextView
+                                        android:id="@+id/textView7i21"
+                                        android:layout_width="wrap_content"
+                                        android:layout_height="wrap_content"
+                                        android:layout_marginStart="47dp"
+                                        android:layout_marginBottom="257dp"
+                                        android:text="Policy"
+                                        android:textSize="10dp"
+                                        app:layout_constraintBottom_toBottomOf="parent"
+                                        app:layout_constraintStart_toEndOf="@+id/textView7i"
+                                        app:layout_constraintTop_toBottomOf="@+id/textVe42" /> </androidx.constraintlayout.widget.ConstraintLayout>
 
 
                             </LinearLayout>
@@ -2141,14 +1633,15 @@
                                 android:layout_height="wrap_content"
                                 android:layout_marginStart="1dp"
                                 android:layout_marginBottom="26dp"
-                                android:text="REGISTRATION"
+                                android:fontFamily="sans-serif-black"
 
-                                android:textColor="#006600"
+                                android:text="Customer Management"
+                                android:textColor="#343734"
+
                                 android:textSize="25dp"
-
                                 android:textStyle="bold"
-                                app:layout_constraintBottom_toBottomOf="parent"
 
+                                app:layout_constraintBottom_toBottomOf="parent"
                                 app:layout_constraintStart_toStartOf="parent"
                                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -2198,26 +1691,6 @@
                                     android:layout_height="400dp">
 
                                     <ImageView
-                                        android:id="@+id/im5aeV3iw121"
-                                        android:layout_width="45dp"
-                                        android:layout_height="59dp"
-
-                                        android:layout_marginStart="41dp"
-
-                                        android:layout_marginTop="56dp"
-
-                                        android:layout_marginEnd="16dp"
-
-
-                                        app:layout_constraintBottom_toTopOf="@+id/t81eView32"
-
-                                        app:layout_constraintEnd_toEndOf="parent"
-                                        app:layout_constraintStart_toEndOf="@+id/ima7geiew151"
-                                        app:layout_constraintTop_toTopOf="parent"
-                                        app:srcCompat="@drawable/tick1"
-                                        tools:ignore="MissingConstraints" />
-
-                                    <ImageView
                                         android:id="@+id/mi6ageView13"
                                         android:layout_width="45dp"
                                         android:layout_height="59dp"
@@ -2227,7 +1700,9 @@
 
                                         android:layout_marginTop="56dp"
 
+                                        android:layout_marginEnd="39dp"
                                         app:layout_constraintBottom_toTopOf="@+id/t9eVie162"
+                                        app:layout_constraintEnd_toStartOf="@+id/imag5i1ew16"
                                         app:layout_constraintStart_toStartOf="parent"
                                         app:layout_constraintTop_toTopOf="parent"
                                         app:srcCompat="@drawable/tick1"
@@ -2239,24 +1714,9 @@
                                         android:layout_height="59dp"
 
                                         android:layout_marginStart="38dp"
-
                                         android:layout_marginTop="56dp"
                                         app:layout_constraintBottom_toTopOf="@+id/tex8tV52"
                                         app:layout_constraintStart_toEndOf="@+id/imag5i1ew16"
-                                        app:layout_constraintTop_toTopOf="parent"
-                                        app:srcCompat="@drawable/tick1"
-                                        tools:ignore="MissingConstraints" />
-
-                                    <ImageView
-                                        android:id="@+id/ima7geiew151"
-                                        android:layout_width="45dp"
-                                        android:layout_height="59dp"
-
-                                        android:layout_marginStart="36dp"
-
-                                        android:layout_marginTop="56dp"
-                                        app:layout_constraintBottom_toTopOf="@+id/tf5extVe2"
-                                        app:layout_constraintStart_toEndOf="@+id/ima39eVie141"
                                         app:layout_constraintTop_toTopOf="parent"
                                         app:srcCompat="@drawable/tick1"
                                         tools:ignore="MissingConstraints" />
@@ -2270,28 +1730,12 @@
                                         android:layout_marginTop="56dp"
 
 
+                                        android:layout_marginEnd="38dp"
                                         app:layout_constraintBottom_toTopOf="@+id/textV8e42"
+                                        app:layout_constraintEnd_toStartOf="@+id/ima39eVie141"
                                         app:layout_constraintStart_toStartOf="parent"
                                         app:layout_constraintTop_toTopOf="parent"
                                         app:srcCompat="@drawable/tick1"
-                                        tools:ignore="MissingConstraints" />
-
-                                    <TextView
-                                        android:id="@+id/t81eView32"
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content"
-
-                                        android:layout_marginStart="51dp"
-
-                                        android:layout_marginEnd="16dp"
-
-                                        android:text="SERVICE "
-
-                                        android:textSize="10dp"
-
-                                        app:layout_constraintEnd_toEndOf="parent"
-                                        app:layout_constraintStart_toEndOf="@+id/tf5extVe2"
-                                        app:layout_constraintTop_toBottomOf="@+id/im5aeV3iw121"
                                         tools:ignore="MissingConstraints" />
 
                                     <TextView
@@ -2299,11 +1743,10 @@
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
 
-                                        android:layout_marginStart="18dp"
+                                        android:layout_marginStart="61dp"
 
                                         android:layout_marginBottom="271dp"
-
-                                        android:text="COMMISSIONS"
+                                        android:text="VIEW "
                                         android:textSize="10dp"
                                         app:layout_constraintBottom_toBottomOf="parent"
                                         app:layout_constraintStart_toEndOf="@+id/t9eVie162"
@@ -2311,31 +1754,14 @@
                                         tools:ignore="MissingConstraints" />
 
                                     <TextView
-                                        android:id="@+id/tf5extVe2"
-                                        android:layout_width="wrap_content"
-                                        android:layout_height="wrap_content"
-
-                                        android:layout_marginStart="38dp"
-
-                                        android:layout_marginBottom="271dp"
-
-                                        android:text="SERVICE"
-                                        android:textSize="10dp"
-                                        app:layout_constraintBottom_toBottomOf="parent"
-                                        app:layout_constraintStart_toEndOf="@+id/tex8tV52"
-                                        app:layout_constraintTop_toBottomOf="@+id/ima7geiew151"
-                                        tools:ignore="MissingConstraints" />
-
-                                    <TextView
                                         android:id="@+id/tex8tV52"
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
 
-                                        android:layout_marginStart="16dp"
+                                        android:layout_marginStart="46dp"
 
                                         android:layout_marginBottom="271dp"
-
-                                        android:text="BROKERS"
+                                        android:text="MAINTAIN "
                                         android:textSize="10dp"
                                         app:layout_constraintBottom_toBottomOf="parent"
                                         app:layout_constraintStart_toEndOf="@+id/textV8e42"
@@ -2346,11 +1772,11 @@
                                         android:id="@+id/t9eVie162"
                                         android:layout_width="wrap_content"
                                         android:layout_height="wrap_content"
-                                        android:layout_marginStart="16dp"
+                                        android:layout_marginStart="28dp"
 
 
                                         android:layout_marginBottom="271dp"
-                                        android:text="REINSURANCE"
+                                        android:text="ADD "
 
                                         android:textSize="10dp"
 
@@ -2395,7 +1821,7 @@
                         app:layout_constraintEnd_toStartOf="@+id/imageView34"
                         app:layout_constraintStart_toStartOf="parent"
                         app:layout_constraintTop_toTopOf="parent"
-                        app:srcCompat="@drawable/tick1" />
+                        app:srcCompat="@drawable/diamond" />
 
                     <ImageView
                         android:id="@+id/imageView32"
@@ -2406,7 +1832,7 @@
                         app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintStart_toEndOf="@+id/imageView33"
                         app:layout_constraintTop_toTopOf="parent"
-                        app:srcCompat="@drawable/tick1" />
+                        app:srcCompat="@drawable/audit" />
 
                     <ImageView
                         android:id="@+id/imageView33"
@@ -2419,22 +1845,23 @@
                         app:layout_constraintEnd_toStartOf="@+id/imageView32"
                         app:layout_constraintStart_toEndOf="@+id/imageView34"
                         app:layout_constraintTop_toTopOf="parent"
-                        app:srcCompat="@drawable/tick1" />
+                        app:srcCompat="@drawable/product__1_" />
 
                     <ImageView
                         android:id="@+id/imageView34"
-                        android:layout_width="90dp"
-                        android:layout_height="80dp"
+                        android:layout_width="80dp"
+                        android:layout_height="69dp"
+                        android:layout_marginTop="8dp"
                         android:layout_marginEnd="7dp"
                         android:layout_marginBottom="2dp"
-                        app:layout_constraintBottom_toTopOf="@+id/textView8"
+                        app:layout_constraintBottom_toTopOf="@+id/txtView8e"
                         app:layout_constraintEnd_toStartOf="@+id/imageView33"
                         app:layout_constraintStart_toEndOf="@+id/imageView21"
                         app:layout_constraintTop_toTopOf="parent"
-                        app:srcCompat="@drawable/tick1" />
+                        app:srcCompat="@drawable/registration" />
 
                     <TextView
-                        android:id="@+id/textView8"
+                        android:id="@+id/txtView8e"
                         android:layout_width="90dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="29dp"
@@ -2458,10 +1885,10 @@
                         android:id="@+id/textView22"
                         android:layout_width="71dp"
                         android:layout_height="19dp"
-                        android:layout_marginStart="49dp"
+                        android:layout_marginEnd="12dp"
                         android:text="Quotations"
                         app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintStart_toEndOf="@+id/textView26"
+                        app:layout_constraintEnd_toEndOf="parent"
                         app:layout_constraintTop_toBottomOf="@+id/imageView32" />
 
                     <TextView
@@ -2471,7 +1898,7 @@
                         android:layout_marginStart="16dp"
                         android:text="Products"
                         app:layout_constraintBottom_toBottomOf="parent"
-                        app:layout_constraintStart_toEndOf="@+id/textView8"
+                        app:layout_constraintStart_toEndOf="@+id/txtView8e"
                         app:layout_constraintTop_toBottomOf="@+id/imageView33" />
 
                 </androidx.constraintlayout.widget.ConstraintLayout>
@@ -2512,42 +1939,42 @@
                         android:layout_width="108dp"
                         android:layout_height="68dp"
                         android:padding="4dp"
-                        app:srcCompat="@drawable/vehicle_insurance" />
+                        app:srcCompat="@drawable/car_insurance__1_" />
 
                     <ImageView
                         android:id="@+id/householdinsurance"
                         android:layout_width="88dp"
                         android:layout_height="68dp"
                         android:padding="4dp"
-                        app:srcCompat="@drawable/home_icon" />
+                        app:srcCompat="@drawable/home_insurance" />
 
                     <ImageView
                         android:id="@+id/funeralinsurance"
                         android:layout_width="88dp"
                         android:layout_height="68dp"
                         android:padding="4dp"
-                        app:srcCompat="@drawable/funeral" />
+                        app:srcCompat="@drawable/funerallll" />
 
                     <ImageView
                         android:id="@+id/lifeinsurance"
                         android:layout_width="88dp"
                         android:layout_height="68dp"
                         android:padding="4dp"
-                        app:srcCompat="@drawable/lifeinsurance" />
+                        app:srcCompat="@drawable/healthcare__2_" />
 
                     <ImageView
                         android:id="@+id/medicalinsurance"
                         android:layout_width="88dp"
                         android:layout_height="68dp"
                         android:padding="4dp"
-                        app:srcCompat="@drawable/medical_insurance" />
+                        app:srcCompat="@drawable/healthcare__1_" />
 
                     <ImageView
                         android:id="@+id/farmersinsurance"
                         android:layout_width="88dp"
                         android:layout_height="68dp"
                         android:padding="4dp"
-                        app:srcCompat="@drawable/farmers" />
+                        app:srcCompat="@drawable/umbrella" />
 
                 </LinearLayout>
             </HorizontalScrollView>

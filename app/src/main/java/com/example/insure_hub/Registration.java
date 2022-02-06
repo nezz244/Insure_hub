@@ -19,7 +19,7 @@ public class Registration extends AppCompatActivity {
 
 
 
-        serviceprovider= findViewById(R.id.textViw6);
+        serviceprovider= findViewById(R.id.textViw);
         brocker= findViewById(R.id.textiew6);
         personal= findViewById(R.id.textView);
         bussiness= findViewById(R.id.textVew6);

@@ -19,7 +19,7 @@ public class Premiums extends AppCompatActivity {
         setContentView(R.layout.activity_premiums);
 
 
-        receive= findViewById(R.id.textViw6);
+        receive= findViewById(R.id.textViw);
         collect= findViewById(R.id.textiew6);
         make= findViewById(R.id.textView);
         recover= findViewById(R.id.textVew6);
@@ -75,7 +75,7 @@ public class Premiums extends AppCompatActivity {
 
 
 
-        Arrowback.setOnClickListener(new View.OnClickListener() {
+      Arrowback.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent= new Intent(Premiums.this, Home.class);
@@ -85,6 +85,7 @@ public class Premiums extends AppCompatActivity {
 
             }
         });
+
     }
 
 

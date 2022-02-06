@@ -4,37 +4,53 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#3F51B5"
-    tools:context=".Registration">
+    android:background="#FBFBFB"
+    tools:context=".Premiums">
 
+
+    <ImageView
+        android:id="@+id/imageView56"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+
+        android:layout_marginStart="78dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginBottom="17dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        app:layout_constraintEnd_toStartOf="@+id/editTextTextPersonName"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/ic_baseline_search_24" />
+
+    <EditText
+        android:id="@+id/editTextTextPersonName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="7dp"
+        android:ems="10"
+        android:hint="Search the Insurehub App"
+        android:inputType="textPersonName"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/imageView56"
+        app:layout_constraintTop_toBottomOf="@+id/imageViw2" />
 
     <LinearLayout
-        android:layout_width="420dp"
-        android:layout_height="770dp"
+        android:id="@+id/linearLayout2"
+        android:layout_width="414dp"
+        android:layout_height="639dp"
         android:layout_marginStart="5dp"
-        android:layout_marginTop="9dp"
         android:layout_marginEnd="6dp"
-        android:layout_marginBottom="9dp"
         android:background="#FDFCFC"
         android:orientation="vertical"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.483"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
-
-
-        <ImageView
-            android:id="@+id/imageViw2"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginStart="120dp"
-            android:layout_marginTop="3dp"
-
-
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/appname" />
+        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName">
 
 
         <androidx.cardview.widget.CardView
@@ -85,7 +101,7 @@
                     android:layout_marginStart="6dp"
                     android:layout_marginTop="31dp"
                     android:layout_toEndOf="@+id/idIVCoursemage"
-                    android:text="Register Business"
+                    android:text="Business Quotation"
 
                     android:textSize="20dp" />
 
@@ -95,7 +111,6 @@
                 <!--Image used in present in drawable folder-->
             </RelativeLayout>
         </androidx.cardview.widget.CardView>
-
 
 
         <androidx.cardview.widget.CardView
@@ -139,20 +154,17 @@
                     android:src="@drawable/istockphoto_1180078592_612x612" />
 
                 <TextView
-                    android:id="@+id/textViw6"
+                    android:id="@+id/textViw"
                     android:layout_width="249dp"
                     android:layout_height="53dp"
                     android:layout_alignParentTop="true"
                     android:layout_marginStart="6dp"
                     android:layout_marginTop="31dp"
                     android:layout_toEndOf="@+id/idIVCoureImage"
-                    android:text="Register Service Provider"
+                    android:text="Policy Quotation"
                     android:textSize="20dp" />
 
-                <!--Text View to display Course Name-->
 
-                <!--Text VIew to display COurse Rating-->
-                <!--Image used in present in drawable folder-->
             </RelativeLayout>
         </androidx.cardview.widget.CardView>
 
@@ -205,7 +217,7 @@
                     android:layout_marginStart="6dp"
                     android:layout_marginTop="31dp"
                     android:layout_toEndOf="@+id/idIVCorseImage"
-                    android:text="Register Broker"
+                    android:text="Medical Insurance"
                     android:textSize="20dp" />
 
                 <!--Text View to display Course Name-->
@@ -263,7 +275,7 @@
                     android:layout_marginStart="6dp"
                     android:layout_marginTop="31dp"
                     android:layout_toEndOf="@+id/idIVCurseImage"
-                    android:text="register Personal"
+                    android:text="HouseHold Insurance "
                     android:textSize="20dp" />
 
                 <!--Text View to display Course Name-->
@@ -274,13 +286,48 @@
         </androidx.cardview.widget.CardView>
 
 
-
-        <ImageView
-            android:id="@+id/imageView2"
-            android:layout_width="93dp"
-            android:layout_height="61dp"
-            app:srcCompat="@drawable/ic_baseline_arrow_back_24" />
-
-
     </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageViw2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="120dp"
+        android:layout_marginTop="9dp"
+
+
+        android:layout_marginBottom="8dp"
+        app:layout_constraintBottom_toTopOf="@+id/editTextTextPersonName"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/appname" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="103dp"
+        android:layout_height="31dp"
+        android:layout_marginTop="6dp"
+        android:layout_marginEnd="41dp"
+        android:layout_marginBottom="68dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        app:layout_constraintEnd_toStartOf="@+id/imageViw2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/ic_baseline_arrow_back_24" />
+
+    <ImageView
+        android:id="@+id/imageView53"
+        android:layout_width="47dp"
+        android:layout_height="41dp"
+        android:layout_marginStart="37dp"
+        android:layout_marginEnd="16dp"
+        android:layout_marginBottom="64dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/editTextTextPersonName"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/chat" />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
