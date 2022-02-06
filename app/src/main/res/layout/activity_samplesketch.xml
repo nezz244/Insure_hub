@@ -78,7 +78,7 @@
                             app:layout_constraintEnd_toEndOf="parent"
                             app:layout_constraintStart_toEndOf="@+id/ima7geiew151"
                             app:layout_constraintTop_toTopOf="parent"
-                            app:srcCompat="@drawable/tick1"
+                            app:srcCompat="@drawable/check"
                             tools:ignore="MissingConstraints" />
 
                         <ImageView
@@ -94,7 +94,7 @@
                             app:layout_constraintBottom_toTopOf="@+id/t9eVie162"
                             app:layout_constraintStart_toStartOf="parent"
                             app:layout_constraintTop_toTopOf="parent"
-                            app:srcCompat="@drawable/tick1"
+                            app:srcCompat="@drawable/check"
                             tools:ignore="MissingConstraints" />
 
                         <ImageView
@@ -108,7 +108,7 @@
                             app:layout_constraintBottom_toTopOf="@+id/tex8tV52"
                             app:layout_constraintStart_toEndOf="@+id/imag5i1ew16"
                             app:layout_constraintTop_toTopOf="parent"
-                            app:srcCompat="@drawable/tick1"
+                            app:srcCompat="@drawable/check"
                             tools:ignore="MissingConstraints" />
 
                         <ImageView
@@ -122,7 +122,7 @@
                             app:layout_constraintBottom_toTopOf="@+id/tf5extVe2"
                             app:layout_constraintStart_toEndOf="@+id/ima39eVie141"
                             app:layout_constraintTop_toTopOf="parent"
-                            app:srcCompat="@drawable/tick1"
+                            app:srcCompat="@drawable/check"
                             tools:ignore="MissingConstraints" />
 
                         <ImageView
@@ -137,7 +137,7 @@
                             app:layout_constraintBottom_toTopOf="@+id/textV8e42"
                             app:layout_constraintStart_toStartOf="parent"
                             app:layout_constraintTop_toTopOf="parent"
-                            app:srcCompat="@drawable/tick1"
+                            app:srcCompat="@drawable/check"
                             tools:ignore="MissingConstraints" />
 
                         <TextView
@@ -252,7 +252,7 @@
 
             android:layout_marginEnd="16dp"
             android:layout_marginBottom="16dp"
-            android:src="@drawable/tick1"
+            android:src="@drawable/check"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
