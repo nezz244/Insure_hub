@@ -8,10 +8,59 @@
     tools:context=".Premiums">
 
 
+    <TextView
+        android:id="@+id/textView33"
+        android:layout_width="106dp"
+        android:layout_height="35dp"
+
+        android:layout_marginStart="2dp"
+        android:layout_marginBottom="11dp"
+        android:fontFamily="sans-serif-black"
+        android:text="NSURE"
+
+
+        android:textColor="#020202"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        app:layout_constraintEnd_toStartOf="@+id/textView34"
+        app:layout_constraintStart_toEndOf="@+id/imageView35"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/imageView35"
+        android:layout_width="30dp"
+        android:layout_height="40dp"
+
+        android:layout_marginStart="124dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginBottom="16dp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        app:layout_constraintEnd_toStartOf="@+id/textView33"
+        app:layout_constraintStart_toStartOf="@+id/imageView2"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/alphabet" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="74dp"
+        android:layout_height="35dp"
+        android:layout_marginEnd="38dp"
+        android:layout_marginBottom="11dp"
+        android:fontFamily="sans-serif-black"
+        android:text="HUB"
+
+        android:textColor="#1397D3"
+        android:textSize="30sp"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        app:layout_constraintEnd_toStartOf="@+id/imageView53"
+        app:layout_constraintStart_toEndOf="@+id/textView33"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <LinearLayout
         android:id="@+id/linearLayout2"
-        android:layout_width="411dp"
-        android:layout_height="689dp"
+        android:layout_width="403dp"
+        android:layout_height="707dp"
         android:layout_marginStart="5dp"
         android:layout_marginEnd="6dp"
         android:background="#FDFCFC"
@@ -70,7 +119,7 @@
                     android:layout_marginStart="6dp"
                     android:layout_marginTop="31dp"
                     android:layout_toEndOf="@+id/idIVCoursemage"
-                    android:text="Business Quotation"
+                    android:text="Recover From Third Party"
 
                     android:textSize="20dp" />
 
@@ -130,10 +179,13 @@
                     android:layout_marginStart="6dp"
                     android:layout_marginTop="31dp"
                     android:layout_toEndOf="@+id/idIVCoureImage"
-                    android:text="Policy Quotation"
+                    android:text="Receive Payment"
                     android:textSize="20dp" />
 
+                <!--Text View to display Course Name-->
 
+                <!--Text VIew to display COurse Rating-->
+                <!--Image used in present in drawable folder-->
             </RelativeLayout>
         </androidx.cardview.widget.CardView>
 
@@ -186,7 +238,7 @@
                     android:layout_marginStart="6dp"
                     android:layout_marginTop="31dp"
                     android:layout_toEndOf="@+id/idIVCorseImage"
-                    android:text="Medical Insurance"
+                    android:text="Collect Payment"
                     android:textSize="20dp" />
 
                 <!--Text View to display Course Name-->
@@ -244,7 +296,7 @@
                     android:layout_marginStart="6dp"
                     android:layout_marginTop="31dp"
                     android:layout_toEndOf="@+id/idIVCurseImage"
-                    android:text="HouseHold Insurance "
+                    android:text="Make Payment"
                     android:textSize="20dp" />
 
                 <!--Text View to display Course Name-->
@@ -258,38 +310,25 @@
     </LinearLayout>
 
     <ImageView
-        android:id="@+id/imageViw2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="120dp"
-        android:layout_marginTop="9dp"
-
-
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/appname" />
-
-    <ImageView
         android:id="@+id/imageView2"
         android:layout_width="103dp"
         android:layout_height="31dp"
         android:layout_marginTop="10dp"
-        android:layout_marginEnd="41dp"
+
         android:layout_marginBottom="13dp"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
-        app:layout_constraintEnd_toStartOf="@+id/imageViw2"
+        app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.333"
         app:srcCompat="@drawable/ic_baseline_arrow_back_24" />
 
     <ImageView
         android:id="@+id/imageView53"
-        android:layout_width="47dp"
-        android:layout_height="41dp"
+        android:layout_width="37dp"
+        android:layout_height="31dp"
         android:layout_marginTop="10dp"
         android:layout_marginEnd="16dp"
-        android:layout_marginBottom="13dp"
+        android:layout_marginBottom="9dp"
         app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"

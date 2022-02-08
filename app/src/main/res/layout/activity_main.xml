@@ -16,16 +16,58 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
+        <TextView
+            android:id="@+id/textView35"
+            android:layout_width="106dp"
+            android:layout_height="35dp"
+
+            android:layout_marginStart="1dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginBottom="36dp"
+            android:fontFamily="sans-serif-black"
+            android:text="NSURE"
+
+            android:textColor="#020202"
+
+            android:textSize="30sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/textView36"
+            app:layout_constraintStart_toEndOf="@+id/imageView"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView36"
+            android:layout_width="74dp"
+            android:layout_height="35dp"
+            android:layout_marginStart="10dp"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="167dp"
+            android:layout_marginBottom="36dp"
+            android:fontFamily="sans-serif-black"
+            android:text="HUB"
+
+            android:textColor="#1397D3"
+
+            android:textSize="30sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toEndOf="@+id/textView35"
+            app:layout_constraintTop_toTopOf="parent" />
+
         <ImageView
             android:id="@+id/imageView"
-            android:layout_width="172dp"
-            android:layout_height="33dp"
-            android:layout_marginStart="177dp"
-            android:layout_marginEnd="148dp"
-            app:layout_constraintEnd_toEndOf="parent"
+            android:layout_width="30dp"
+            android:layout_height="40dp"
+
+            android:layout_marginStart="190dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="1dp"
+            android:layout_marginBottom="29dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/textView35"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/appname" />
+            app:srcCompat="@drawable/alphabet" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 
