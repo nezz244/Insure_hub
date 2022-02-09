@@ -108,10 +108,12 @@
                         android:layout_width="30dp"
                         android:layout_height="40dp"
 
-                        android:layout_marginStart="110dp"
-                        android:layout_marginTop="12dp"
+                        android:layout_marginStart="108dp"
+                        android:layout_marginTop="18dp"
+                        app:layout_constraintBottom_toTopOf="@+id/toolbar2"
                         app:layout_constraintStart_toStartOf="@+id/toolbar2"
                         app:layout_constraintTop_toTopOf="parent"
+                        app:layout_constraintVertical_bias="0.186"
                         app:srcCompat="@drawable/alphabet" />
 
                     <TextView
@@ -148,7 +150,7 @@
 
                         android:layout_marginStart="60dp"
                         android:layout_marginTop="15dp"
-                        android:layout_marginEnd="4dp"
+                        android:layout_marginEnd="8dp"
                         app:layout_constraintEnd_toStartOf="@+id/toolbar2"
                         app:layout_constraintHorizontal_bias="0.0"
                         app:layout_constraintStart_toEndOf="@+id/textView25"
@@ -2038,12 +2040,12 @@
     <!--include the menu created in the menu folder-->
     <com.google.android.material.navigation.NavigationView
 
-        android:layout_width="wrap_content"
-        android:layout_height="500dp"
+        android:layout_width="200dp"
+        android:layout_height="350dp"
 
         android:layout_gravity="start"
 
-        android:background="#F9F9FA"
+        android:background="#21217C"
         app:menu="@menu/navigation_menu" />
 
 </androidx.drawerlayout.widget.DrawerLayout>
